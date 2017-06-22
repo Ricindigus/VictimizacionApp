@@ -41,7 +41,7 @@
 
     <!--Preguntas-->
     <!--Capitulo100-->
-    <string name="capitulo100_pregunta1">TIPO DE VIVIENDA</string>
+    <string name="capitulo100_pregunta1">1.TIPO DE VIVIENDA</string>
     <string name="capitulo100_pregunta1_sp1">Casa independiente</string>
     <string name="capitulo100_pregunta1_sp2">Departamento en edificio</string>
     <string name="capitulo100_pregunta1_sp3">Vivienda en quinta</string>
@@ -50,7 +50,7 @@
     <string name="capitulo100_pregunta1_sp6">Vivienda improvisada</string>
     <string name="capitulo100_pregunta1_sp7">Local no destinado para habitación humana</string>
 
-    <string name="capitulo100_pregunta2">ACCESO A LA VIVIENDA</string>
+    <string name="capitulo100_pregunta2">2.ACCESO A LA VIVIENDA</string>
     <string name="capitulo100_pregunta2_sp1">Garita o caseta de entrada</string>
     <string name="capitulo100_pregunta2_sp2">Puertas  con  intercomunicador  de  audio  y/o vídeo</string>
     <string name="capitulo100_pregunta2_sp3">Puertas  sin  intercomunicador  de  audio  y/o vídeo</string>
@@ -59,7 +59,7 @@
     <string name="capitulo100_pregunta2_sp6">Cercas</string>
     <string name="capitulo100_pregunta2_sp8">No se observa ninguna barrera</string>
 
-    <string name="capitulo100_pregunta3">EL MATERIAL PREDOMINANTE EN LAS PAREDES EXTERIORES DE LA VIVIENDA ES:</string>
+    <string name="capitulo100_pregunta3">3.EL MATERIAL PREDOMINANTE EN LAS PAREDES EXTERIORES DE LA VIVIENDA ES:</string>
     <string name="capitulo100_pregunta3_sp1">¿Ladrillo o bloque de cemento?</string>
     <string name="capitulo100_pregunta3_sp2">¿Piedra o sillar con cal o cemento?</string>
     <string name="capitulo100_pregunta3_sp3">¿Adobe o tapia?</string>
@@ -68,7 +68,7 @@
     <string name="capitulo100_pregunta3_sp6">¿Madera?</string>
     <string name="capitulo100_pregunta3_sp7">¿Estera?</string>
 
-    <string name="capitulo100_pregunta4">LA VIVIENDA QUE OCUPA ES:</string>
+    <string name="capitulo100_pregunta4">4.LA VIVIENDA QUE OCUPA ES:</string>
     <string name="capitulo100_pregunta4_sp1">¿Alquilada?</string>
     <string name="capitulo100_pregunta4_sp2">¿Propia, totalmente pagada?</string>
     <string name="capitulo100_pregunta4_sp3">¿Propia, por invasión?</string>
@@ -77,10 +77,21 @@
     <string name="capitulo100_pregunta4_sp6">¿Cedida por el centro de trabajo?</string>
     <string name="capitulo100_pregunta4_sp7">¿Cedida por otra institución?</string>
 
-    <string name="capitulo100_pregunta5">¿EN CUÁNTO ESTIMA EL MONTO MENSUAL QUE GASTÓ SU HOGAR EN ALIMENTOS?</string>
+    <string name="capitulo100_pregunta5">5.¿EN CUÁNTO ESTIMA EL MONTO MENSUAL QUE GASTÓ SU HOGAR EN ALIMENTOS?</string>
 
-    <string name="capitulo100_pregunta6">¿EN CUÁNTO ESTIMA EL MONTO MENSUAL QUE GASTÓ SU HOGAR EN OTROS BIENES Y/O SERVICIOS? (Considere educación, transporte, vestimenta, etc.; NO incluya gastos de alimentos)</string>
+    <string name="capitulo100_pregunta6">6.¿EN CUÁNTO ESTIMA EL MONTO MENSUAL QUE GASTÓ SU HOGAR EN OTROS BIENES Y/O SERVICIOS? (Considere educación, transporte, vestimenta, etc.; NO incluya gastos de alimentos)</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!--Textos genericos-->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="texto_si">SI</string>
+    <string name="texto_no">NO</string>
+    <string name="texto_nosabe">NO SABE</string>
+    <string name="texto_otro">Otro</string>
+    <string name="texto_potrop">¿Otro?</string>
+    <string name="texto_otrop">Otro?</string>
+    <string name="texto_especifique">Especifique</string>
+    <string name="texto_informante">Informante</string>
+    <string name="texto_soles">Soles (En enteros)</string>
+
 </resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cap100_pregunta6_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/pregunta_margin"
+    android:padding="@dimen/layout_margin"
+    android:background="@drawable/borde_layout_preguntas">
+    <TextView
+        android:id="@+id/c100_pregunta6_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/textoMedium"
+        android:text="@string/capitulo100_pregunta6"/>
+    <LinearLayout
+        android:id="@+id/c100_pregunta6_layout_subpregunta"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/c100_pregunta6_textview_soles"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/texto_soles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/pregunta_margin" />
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/c100_pregunta6_edittext"
+            android:layout_margin="@dimen/pregunta_margin"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/cajas_de_texto"/>
+        <CheckBox
+            android:id="@+id/cap100_pregunta6_checkbox"
+            android:layout_margin="@dimen/pregunta_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_nosabe"
+            />
+    </LinearLayout>
+</LinearLayout>

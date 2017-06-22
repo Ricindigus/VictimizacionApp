@@ -2,9 +2,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="pe.gob.inei.victimizacionapp.Capitulo100Fragment">
 
     <!-- TODO: Update blank fragment layout -->
-
-    <include layout="@layout/cabecera_layout"/>
+    <LinearLayout
+        android:layout_margin="@dimen/layout_margin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/cap100_cabecera_layout"/>
+        <include layout="@layout/cap100_p1_layout"/>
+        <include layout="@layout/cap100_p2_layout"/>
+        <include layout="@layout/cap100_p3_layout"/>
+        <include layout="@layout/cap100_p4_layout"/>
+        <include layout="@layout/cap100_p5_layout"/>
+        <include layout="@layout/cap100_p6_layout"/>
+    </LinearLayout>
 </LinearLayout>
