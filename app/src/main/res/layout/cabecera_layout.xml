@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cab1_layout">
+    <TextView
+        android:id="@+id/cabecera1_nombre_capitulo"
+        android:layout_marginBottom="@dimen/layout_margin"
+        android:padding="10dp"
+        android:textColor="@color/icons"
+        android:textStyle="bold"
+        android:textSize="@dimen/textoMedium"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="capitulo"
+        />
+        <Spinner
+            android:id="@+id/cab1_spinner_informante"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
