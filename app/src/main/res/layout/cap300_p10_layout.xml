@@ -15,45 +15,43 @@
         android:textSize="@dimen/textoMedium"
         android:layout_marginBottom="@dimen/pregunta_margin"
         android:text="@string/capitulo300_pregunta10"/>
-
-        <TextView
-            android:id="@+id/cap300_pregunta10_sp_textview1"
-            android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/cap300_pregunta10_sp_textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/textoSmall"
+        android:layout_marginTop="@dimen/pregunta_margin"
+        android:layout_marginLeft="@dimen/pregunta_margin"
+        android:text="@string/capitulo300_pregunta10_sp1"/>
+    <RadioGroup
+        android:id="@+id/cap300_pregunta10_radio1"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/pregunta_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/cap300_pregunta10_sp1_radiosi"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
             android:textSize="@dimen/textoSmall"
-            android:layout_marginTop="@dimen/pregunta_margin"
-            android:layout_marginLeft="@dimen/pregunta_margin"
-            android:text="@string/capitulo300_pregunta10_sp1"/>
-        <RadioGroup
-            android:id="@+id/cap300_pregunta10_radio1"
-            android:orientation="horizontal"
-            android:layout_margin="@dimen/pregunta_margin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <RadioButton
-                android:id="@+id/cap300_pregunta10_sp1_radiosi"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/textoSmall"
-                android:text="@string/texto_si"
-                />
-            <RadioButton
-                android:id="@+id/cap300_pregunta10_sp1_radiono"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/textoSmall"
-                android:text="@string/texto_no"
-                />
-            <RadioButton
-                android:id="@+id/cap300_pregunta10_sp1_radionosabe"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:textSize="@dimen/textoSmall"
-                android:text="@string/texto_noaplica"
-                />
-        </RadioGroup>
-
+            android:text="@string/texto_si"
+            />
+        <RadioButton
+            android:id="@+id/cap300_pregunta10_sp1_radiono"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textoSmall"
+            android:text="@string/texto_no"
+            />
+        <RadioButton
+            android:id="@+id/cap300_pregunta10_sp1_radionosabe"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textoSmall"
+            android:text="@string/texto_noaplica"
+            />
+    </RadioGroup>
     <TextView
         android:id="@+id/cap300_pregunta10_sp_textview2"
         android:layout_width="match_parent"
@@ -210,7 +208,7 @@
         android:textSize="@dimen/textoSmall"
         android:layout_marginTop="@dimen/pregunta_margin"
         android:layout_marginLeft="@dimen/pregunta_margin"
-        android:text="@string/capitulo300_pregunta10_sp2"/>
+        android:text="@string/capitulo300_pregunta10_sp6"/>
     <RadioGroup
         android:id="@+id/cap300_pregunta10_radio6"
         android:orientation="horizontal"
@@ -432,7 +430,7 @@
         android:textSize="@dimen/textoSmall"
         android:layout_marginTop="@dimen/pregunta_margin"
         android:layout_marginLeft="@dimen/pregunta_margin"
-        android:text="@string/capitulo300_pregunta10_sp2"/>
+        android:text="@string/capitulo300_pregunta10_sp12"/>
     <RadioGroup
         android:id="@+id/cap300_pregunta10_radio12"
         android:orientation="horizontal"
@@ -580,7 +578,7 @@
         android:textSize="@dimen/textoSmall"
         android:layout_marginTop="@dimen/pregunta_margin"
         android:layout_marginLeft="@dimen/pregunta_margin"
-        android:text="@string/capitulo300_pregunta10_sp2"/>
+        android:text="@string/capitulo300_pregunta10_sp16"/>
     <RadioGroup
         android:id="@+id/cap300_pregunta10_radio16"
         android:orientation="horizontal"
@@ -617,7 +615,7 @@
         android:textSize="@dimen/textoSmall"
         android:layout_marginTop="@dimen/pregunta_margin"
         android:layout_marginLeft="@dimen/pregunta_margin"
-        android:text="@string/capitulo300_pregunta10_sp2"/>
+        android:text="@string/capitulo300_pregunta10_sp17"/>
     <RadioGroup
         android:id="@+id/cap300_pregunta10_radio17"
         android:orientation="horizontal"
@@ -654,7 +652,7 @@
         android:textSize="@dimen/textoSmall"
         android:layout_marginTop="@dimen/pregunta_margin"
         android:layout_marginLeft="@dimen/pregunta_margin"
-        android:text="@string/capitulo300_pregunta10_sp2"/>
+        android:text="@string/texto_otrop"/>
     <RadioGroup
         android:id="@+id/cap300_pregunta10_radio18"
         android:orientation="horizontal"

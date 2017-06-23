@@ -13,7 +13,6 @@ import android.view.ViewGroup;
  */
 public class Capitulo100Fragment extends Fragment {
 
-
     public Capitulo100Fragment() {
         // Required empty public constructor
     }

@@ -51,7 +51,7 @@
             android:textSize="@dimen/textoSmall"
             android:layout_margin="@dimen/pregunta_margin" />
         <EditText
-            android:inputType="numberDecimal"
+            android:inputType="text"
             android:id="@+id/c300_pregunta9_edittext_letras"
             android:layout_margin="@dimen/pregunta_margin"
             android:layout_width="match_parent"

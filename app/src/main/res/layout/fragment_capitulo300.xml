@@ -19,7 +19,9 @@
         <include layout="@layout/cap300_p5_layout"/>
         <include layout="@layout/cap300_p6_layout"/>
         <include layout="@layout/cap300_p7_layout"/>
+        <include layout="@layout/cap300_p8_layout"/>
         <include layout="@layout/cap300_p9_layout"/>
         <include layout="@layout/cap300_p10_layout"/>
+        <include layout="@layout/cap300_p13_layout"/>
     </LinearLayout>
 </LinearLayout>
