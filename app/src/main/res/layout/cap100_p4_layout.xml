@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="@dimen/textoMedium"
+        android:layout_marginBottom="@dimen/pregunta_margin"
         android:text="@string/capitulo100_pregunta4"/>
     <RadioGroup
         android:id="@+id/c100_pregunta4_radio"
@@ -23,6 +24,7 @@
             android:id="@+id/c100_pregunta4_radiobutton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo100_pregunta4_sp1"
             />
         <RadioButton
@@ -30,6 +32,7 @@
             android:id="@+id/c100_pregunta4_radiobutton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo100_pregunta4_sp2"
             />
         <RadioButton
@@ -37,6 +40,7 @@
             android:id="@+id/c100_pregunta4_radiobutton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo100_pregunta4_sp3"
             />
         <RadioButton
@@ -44,6 +48,7 @@
             android:id="@+id/c100_pregunta4_radiobutton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo100_pregunta4_sp4"
             />
         <RadioButton
@@ -51,6 +56,7 @@
             android:id="@+id/c100_pregunta4_radiobutton5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo100_pregunta4_sp5"
             />
         <RadioButton
@@ -58,6 +64,7 @@
             android:id="@+id/c100_pregunta4_radiobutton6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo100_pregunta4_sp6"
             />
         <RadioButton
@@ -65,6 +72,7 @@
             android:id="@+id/c100_pregunta4_radiobutton7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo100_pregunta4_sp7"
             />
         <RadioButton
@@ -72,6 +80,7 @@
             android:id="@+id/c100_pregunta4_radiobutton8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/textoSmall"
             android:text="@string/texto_otro"
             />
         <EditText

@@ -4,7 +4,7 @@
     <!--Titulos Capitulos-->
     <string name="capitulo100_titulo">CAPÍTULO 100: DATOS DE LA VIVIENDA (Jefe/a del hogar o persona de 18 y más años de edad)</string>
     <string name="capitulo200_titulo">CAPÍTULO 200: CARACTERÍSTICAS DE LOS RESIDENTES HABITUALES DEL HOGAR (Jefe/a del hogar o persona de 18 y más años de edad)</string>
-    <string name="capitulo300_titulo">CAPÍTULO 30: PERCEPCIÓN DE INSEGURIDAD (Persona seleccionada)</string>
+    <string name="capitulo300_titulo">CAPÍTULO 300: PERCEPCIÓN DE INSEGURIDAD (Persona seleccionada)</string>
     <string name="capitulo400_titulo">CAPÍTULO 400: PREGUNTAS FILTRO (Persona seleccionada)</string>
     <string name="capitulo500_titulo">CAPÍTULO 500: CARACTERIZACIÓN DE LOS HECHOS DELICTIVOS COMETIDOS AL HOGAR</string>
     <string name="capitulo600_titulo">CAPÍTULO 600: CARACTERIZACIÓN DE LOS HECHOS DELICTIVOS COMETIDOS A LA PERSONA</string>
@@ -17,27 +17,26 @@
     <string name="capitulo200_sgDeterminacionInf">DETERMINACIÓN DEL INFORMANTE</string>
     <string name="capitulo200_sg15oMas">PARA 15 Y MÁS AÑOS DE EDAD/RESIDENTE HABITUAL</string>
 
-    <string name="capitulo300_sgDiscapacidad">DISCAPACIDAD</string>
-    <string name="capitulo300_sgEducacion">EDUCACIÓN</string>
-    <string name="capitulo300_sgAutoidentificacion">AUTOIDENTIFICACIÓN ÉTNICA</string>
-    <string name="capitulo300_sgCondicion">CONDICIÓN DE ACTIVIDAD (OCUPADOS Y DESOCUPADOS)</string>
-    <string name="capitulo300_sgOcupados">OCUPADOS</string>
-    <string name="capitulo300_sgDesocupados">DESOCUPADOS</string>
+    <string name="capitulo300_sgPercepcion">PERCEPCIÓN DE INSEGURIDAD</string>
+    <string name="capitulo300_sgMedidasSeguridad">MEDIDAS DE SEGURIDAD</string>
+    <string name="capitulo300_sgCambioHabitos">CAMBIO DE HÁBITOS</string>
+    <string name="capitulo300_sgParticipacionCiu">PARTICIPACIÓN CIUDADANA</string>
+    <string name="capitulo300_sgMedioscomunicacion">MEDIOS DE COMUNICACIÓN</string>
 
-
-    <string name="capitulo400_sgPercepcion">PERCEPCIÓN DE INSEGURIDAD</string>
-    <string name="capitulo400_sgMedidasSeguridad">MEDIDAS DE SEGURIDAD</string>
-    <string name="capitulo400_sgCambioHabitos">CAMBIO DE HÁBITOS</string>
-    <string name="capitulo400_sgParticipacionCiu">PARTICIPACIÓN CIUDADANA</string>
-    <string name="capitulo400_sgMedioscomunicacion">MEDIOS DE COMUNICACIÓN</string>
-
-    <string name="capitulo500_sgSeccion501">SECCIÓN 501: PREGUNTAS FILTRO DE LOS HECHOS DELICTIVOS COMETIDOS A LA PERSONA</string>
-    <string name="capitulo500_sgSeccion502">SECCIÓN 502: PREGUNTAS FILTRO DE LOS HECHOS DELICTIVOS COMETIDOS AL HOGAR</string>
+    <string name="capitulo400_sgSeccion501">SECCIÓN 401: PREGUNTAS FILTRO DE LOS HECHOS DELICTIVOS COMETIDOS A LA PERSONA</string>
+    <string name="capitulo400_sgSeccion502">SECCIÓN 402: PREGUNTAS FILTRO DE LOS HECHOS DELICTIVOS COMETIDOS AL HOGAR</string>
 
     <string name="capitulo600_sgSeccion601">SECCIÓN 601: ROBO, HURTO E INTENTO DE ROBO</string>
     <string name="capitulo600_sgSeccion602">SECCIÓN 602: AGRESIÓN FÍSICA Y VERBAL (Para los últimos cinco eventos delictivos)</string>
     <string name="capitulo600_sgSeccion_UltimosCinco">Para los últimos cinco eventos delictivos</string>
     <string name="capitulo600_sgSeccion_LugarOcurrencia">Lugar de ocurrencia (georreferenciación)</string>
+
+    <string name="capitulo700_sgDiscapacidad">DISCAPACIDAD</string>
+    <string name="capitulo700_sgEducacion">EDUCACIÓN</string>
+    <string name="capitulo700_sgAutoidentificacion">AUTOIDENTIFICACIÓN ÉTNICA</string>
+    <string name="capitulo700_sgCondicion">CONDICIÓN DE ACTIVIDAD (OCUPADOS Y DESOCUPADOS)</string>
+    <string name="capitulo700_sgOcupados">OCUPADOS</string>
+    <string name="capitulo700_sgDesocupados">DESOCUPADOS</string>
 
     <!--Preguntas-->
     <!--Capitulo100-->
@@ -81,7 +80,157 @@
 
     <string name="capitulo100_pregunta6">6.¿EN CUÁNTO ESTIMA EL MONTO MENSUAL QUE GASTÓ SU HOGAR EN OTROS BIENES Y/O SERVICIOS? (Considere educación, transporte, vestimenta, etc.; NO incluya gastos de alimentos)</string>
 
-    <!--Textos genericos-->
+    <!--Capitulo 300-->
+    <string name="capitulo300_pregunta1">1.USTED, ¿CÓMO SE SIENTE:</string>
+    <string name="capitulo300_pregunta1_sp1">1.En su casa?</string>
+    <string name="capitulo300_pregunta1_sp2">2.En su lugar de trabajo?</string>
+    <string name="capitulo300_pregunta1_sp3">3.Caminando por la calle?</string>
+    <string name="capitulo300_pregunta1_sp4">4.En su institución educativa?</string>
+    <string name="capitulo300_pregunta1_sp5">5.En el mercado?</string>
+    <string name="capitulo300_pregunta1_sp6">6.En el centro comercial?</string>
+    <string name="capitulo300_pregunta1_sp7">7.En el banco?</string>
+    <string name="capitulo300_pregunta1_sp8">8.En el cajero automático?</string>
+    <string name="capitulo300_pregunta1_sp9">9.En el parque?</string>
+    <string name="capitulo300_pregunta1_sp10">10.En el transporte público?</string>
+    <string name="capitulo300_pregunta1_sp11">11.En un vehículo propio?</string>
+    <string name="capitulo300_pregunta1_opc1">Muy Inseguro?</string>
+    <string name="capitulo300_pregunta1_opc2">Inseguro??</string>
+    <string name="capitulo300_pregunta1_opc3">Seguro</string>
+    <string name="capitulo300_pregunta1_opc4">Muy seguro?</string>
+    <string name="capitulo300_pregunta1_opc5">NO APLICA</string>
+
+    <string name="capitulo300_pregunta2">2.¿QUÉ TAN SEGURO SE SIENTE CAMINANDO EN SU ZONA O BARRIO DE NOCHE Y SOLO:</string>
+    <string name="capitulo300_pregunta2_sp1">Muy inseguro?</string>
+    <string name="capitulo300_pregunta2_sp2">Inseguro?</string>
+    <string name="capitulo300_pregunta2_sp3">Seguro?</string>
+    <string name="capitulo300_pregunta2_sp4">Muy seguro?</string>
+
+    <string name="capitulo300_pregunta3">3.¿SABE O A ESCUCHADO SI EN LOS ALREDEDORES DE SU VIVIENDA SUCEDEN O HAN SUCEDIDO LAS SIGUIENTES SITUACIONES DURANTE LOS ÚLTIMOS 12 MESES, ES DECIR ENTRE JUN 15 Y MAY 16.</string>
+    <string name="capitulo300_pregunta3_sp1">¿Riñas o peleas en la calle?</string>
+    <string name="capitulo300_pregunta3_sp2">¿Reuniones de pandillas o bandas?</string>
+    <string name="capitulo300_pregunta3_sp3">¿Venta de productos falsificados?</string>
+    <string name="capitulo300_pregunta3_sp4">¿Consumo de bebidas alcohólicas en la calle?</string>
+    <string name="capitulo300_pregunta3_sp5">¿Venta clandestina de alcohol?</string>
+    <string name="capitulo300_pregunta3_sp6">¿Consumo de droga en la calle?</string>
+    <string name="capitulo300_pregunta3_sp7">¿Venta de droga en la calle?</string>
+    <string name="capitulo300_pregunta3_sp8">¿Vandalismo?</string>
+    <string name="capitulo300_pregunta3_sp9">¿Calles sin iluminación?</string>
+    <string name="capitulo300_pregunta3_sp10">¿Prostitución?</string>
+    <string name="capitulo300_pregunta3_sp11">¿Disparos frecuentes?</string>
+
+    <string name="capitulo300_pregunta4">4.EN LOS PRÓXIMOS 12 MESES DE JUL 16 Y JUN 17, ¿USTED CREE QUE PODRÍA SER VÍCTIMA DE ALGÚN HECHO DELICTIVO POR EL TIPO DE ACTIVIDADES QUE REALIZA O EN LOS LUGARES POR LOS QUE TRANSITA NORMALMENTE?</string>
+
+    <string name="capitulo300_pregunta5">5.¿DE CUÁL HECHO DELICTIVO?</string>
+    <string name="capitulo300_pregunta5_sp1">Robo de vehículo automotor</string>
+    <string name="capitulo300_pregunta5_sp2">Robo de vivienda</string>
+    <string name="capitulo300_pregunta5_sp3">Robo sin violencia de sus objetos personales (cartera,mochila, celular)</string>
+    <string name="capitulo300_pregunta5_sp4">Robo con violencia de sus objetos personales (cartera,mochila, celular)</string>
+    <string name="capitulo300_pregunta5_sp5">Fraude bancario</string>
+    <string name="capitulo300_pregunta5_sp6">Estafa (fraude al consumidor)</string>
+    <string name="capitulo300_pregunta5_sp7">Vandalismo</string>
+    <string name="capitulo300_pregunta5_sp8">Amenaza</string>
+    <string name="capitulo300_pregunta5_sp9">Extorsión</string>
+    <string name="capitulo300_pregunta5_sp10">Corrupción</string>
+    <string name="capitulo300_pregunta5_sp11">Agresión verbal</string>
+    <string name="capitulo300_pregunta5_sp12">Agresión física</string>
+    <string name="capitulo300_pregunta5_sp13">Agresión sexual</string>
+    <string name="capitulo300_pregunta5_sp14">Secuestro</string>
+
+    <string name="capitulo300_pregunta6">6.EN COMPARACIÓN CON LOS ÚLTIMOS 12 MESES DE JUN 15 Y MAY 16, ¿USTED, DIRÍA QUE LA DELINCUENCIA:</string>
+    <string name="capitulo300_pregunta6_sp1">1.En su barrio</string>
+    <string name="capitulo300_pregunta6_sp2">2.En su distrito, pero no en su barrio</string>
+    <string name="capitulo300_pregunta6_sp3">3.En su provincia</string>
+    <string name="capitulo300_pregunta6_sp4">4.En su departamento</string>
+    <string name="capitulo300_pregunta6_sp5">5.En su país</string>
+    <string name="capitulo300_pregunta6_opc1">Ha disminuido?</string>
+    <string name="capitulo300_pregunta6_opc2">Se mantiene igual?</string>
+    <string name="capitulo300_pregunta6_opc3">Ha aumentado?</string>
+
+    <string name="capitulo300_pregunta7">7.¿PODRÍA USTED INDICARME SI EN SU HOGAR SE HA INSTALADO O ADOPTADO ALGÚN TIPO DE MEDIDA PARA PREVENIR O PROTEGERSE DE LA DELINCUENCIA?</string>
+
+    <string name="capitulo300_pregunta8">8.DÍGAME USTED, ¿CON QUÉ MEDIDAS DE SEGURIDAD CUENTA ACTUALMENTE:</string>
+    <string name="capitulo300_pregunta8A">8A.¿ÉSTA MEDIDA SE INSTALÓ DURANTE LOS ÚLTIMOS 12 MESES?</string>
+    <string name="capitulo300_pregunta8_sp1">1. Puerta blindada?</string>
+    <string name="capitulo300_pregunta8_sp2">2. Rejas en las ventanas?</string>
+    <string name="capitulo300_pregunta8_sp3">3. Cerraduras especiales en las puertas?</string>
+    <string name="capitulo300_pregunta8_sp4">4. Alarma contra robo?</string>
+    <string name="capitulo300_pregunta8_sp5">5. Cámara de vigilancia?</string>
+    <string name="capitulo300_pregunta8_sp6">6. Muros más altos?</string>
+    <string name="capitulo300_pregunta8_sp7">7. Perro guardián?</string>
+    <string name="capitulo300_pregunta8_sp8">8. Vigilante particular?</string>
+    <string name="capitulo300_pregunta8_sp9">9. Tienen un plan de vigilancia entre vecinos?</string>
+    <string name="capitulo300_pregunta8_sp10">10. Acuerdos informales con los vecinos para vigilar las casas?</string>
+    <string name="capitulo300_pregunta8_sp11">11. Han comprado un arma de fuego?</string>
+    <string name="capitulo300_pregunta8_sp12">12. Cercos y/o rejas perimétricas (altos/bajos), púas, alambres con púas, vidrio?</string>
+
+    <string name="capitulo300_pregunta9">9.¿CUÁNTO GASTÓ POR LA IMPLEMENTACIÓN DE ESAS MEDIDAS DE SEGURIDAD?</string>
+
+    <string name="capitulo300_pregunta10">10.EN LOS ÚLTIMOS 12 MESES, DE JUN 15 A MAY 16, TENIENDO EN CUENTA EL CONTEXTO DE SEGURIDAD ¿HA DEJADO DE HACER ALGUNA DE LAS SIGUIENTES ACTIVIDADES:</string>
+    <string name="capitulo300_pregunta10_sp1">1. Salir de noche?</string>
+    <string name="capitulo300_pregunta10_sp2">2. Permitir que sus hijos menores de edad salgan solos?</string>
+    <string name="capitulo300_pregunta10_sp3">3. Visitar parientes o amigos?</string>
+    <string name="capitulo300_pregunta10_sp4">4. Tomar taxis en la calle?</string>
+    <string name="capitulo300_pregunta10_sp5">5. Usar transporte público?</string>
+    <string name="capitulo300_pregunta10_sp6">6. Llevar mucho dinero en efectivo?</string>
+    <string name="capitulo300_pregunta10_sp7">7. Ir a la Institución Educativa, Institutos Tecnológicos, Universidad, etc.?</string>
+    <string name="capitulo300_pregunta10_sp8">8. Ir al cine o al teatro?</string>
+    <string name="capitulo300_pregunta10_sp9">9. Salir a caminar?</string>
+    <string name="capitulo300_pregunta10_sp10">10. Usar joyas?</string>
+    <string name="capitulo300_pregunta10_sp11">11. Salir a comer?</string>
+    <string name="capitulo300_pregunta10_sp12">12. Llevar consigo tarjetas de crédito o débito?</string>
+    <string name="capitulo300_pregunta10_sp13">13. Ir al estadio?</string>
+    <string name="capitulo300_pregunta10_sp14">14. Frecuentar centros comerciales?</string>
+    <string name="capitulo300_pregunta10_sp15">15. Viajar por carretera a otra provincia/departamento?</string>
+    <string name="capitulo300_pregunta10_sp16">16. Dejar la casa sola?</string>
+    <string name="capitulo300_pregunta10_sp17">17. Llegar muy tarde a casa?</string>
+
+    <string name="capitulo300_pregunta11">11.DE LAS AUTORIDADES O INSTITUCIONES QUE LE VOY A MENCIONAR, ¿PODRÍA INDICARME SI CONOCE SUS FUNCIONES?</string>
+    <string name="capitulo300_pregunta11A">11A.TENIENDO EN CUENTA LO QUE ESPERABA QUE HAGAN LAS AUTORIDADES O INSTITUCIONES, ¿QUÉ TANTA CONFIANZA LE INSPIRA EL/LA ...</string>
+    <string name="capitulo300_pregunta11B">11B.¿QUÉ TAN EFECTIVO CONSIDERA EL TRABAJO REALIZADO POR EL/LA ... </string>
+    <string name="capitulo300_pregunta11C">11C.A SU JUICIO, ¿EL/LA ... PUEDE CALIFICARSE COMO CORRUPTO/A?</string>
+    <string name="capitulo300_pregunta11_sp1">1. Policía Nacional del Perú?</string>
+    <string name="capitulo300_pregunta11_sp2">2. Serenazgo?</string>
+    <string name="capitulo300_pregunta11_sp3">3. Ministerio Público – Fiscalía?</string>
+    <string name="capitulo300_pregunta11_sp4">4. Poder Judicial?</string>
+    <string name="capitulo300_pregunta11_sp5">5. Instituto Nacional Penitenciario?</string>
+    <string name="capitulo300_pregunta11_sp6">6. Ejército?</string>
+    <string name="capitulo300_pregunta11A_opc1">Muy confiable?</string>
+    <string name="capitulo300_pregunta11A_opc2">Algo confiable?</string>
+    <string name="capitulo300_pregunta11A_opc3">Poco confiable?</string>
+    <string name="capitulo300_pregunta11A_opc4">Nada confiable?</string>
+    <string name="capitulo300_pregunta11B_opc1">Muy efectivo?</string>
+    <string name="capitulo300_pregunta11B_opc2">Algo efectivo?</string>
+    <string name="capitulo300_pregunta11B_opc3">Poco efectivo?</string>
+    <string name="capitulo300_pregunta11B_opc4">Nada efectivo?</string>
+
+    <string name="capitulo300_pregunta12">12.DE LAS SIGUIENTES ORGANIZACIONES VECINALES DE SEGURIDAD CIUDADANA, ¿USTED PARTICIPA EN: </string>
+    <string name="capitulo300_pregunta12_sp1">Junta Vecinal de Seguridad Ciudadana?</string>
+    <string name="capitulo300_pregunta12_sp2">Red de Cooperantes para la Seguridad Ciudadana?</string>
+    <string name="capitulo300_pregunta12_sp3">Brigadas de Autoprotección Escolar(BAPES)?</string>
+    <string name="capitulo300_pregunta12_sp4">Patrulla Juvenil?</string>
+    <string name="capitulo300_pregunta12_sp5">Policía Escolar?</string>
+
+    <string name="capitulo300_pregunta13">13.¿CÓMO SE ENTERA USTED DE LO QUE OCURRE EN MATERIA DE SEGURIDAD CIUDADANA ¿CON QUE FRECUENCIA? EN EL PAÍS Y SU DEPARTAMENTO?</string>
+    <string name="capitulo300_pregunta13A">¿CON QUE FRECUENCIA?</string>
+    <string name="capitulo300_pregunta13_sp1">Por noticieros de radio</string>
+    <string name="capitulo300_pregunta13_sp2">Por noticieros de televisión</string>
+    <string name="capitulo300_pregunta13_sp3">Por la prensa (escrita)</string>
+    <string name="capitulo300_pregunta13_sp4">En reuniones familiares/amigos</string>
+    <string name="capitulo300_pregunta13_sp5">Por compañeros de trabajo/vecinos</string>
+    <string name="capitulo300_pregunta13_sp6">Otro (redes sociales)</string>
+    <string name="capitulo300_pregunta13A_opc1">Diario</string>
+    <string name="capitulo300_pregunta13A_opc2">Interdiario</string>
+    <string name="capitulo300_pregunta13A_opc3">Semanal</string>
+    <string name="capitulo300_pregunta13A_opc4">Quincenal</string>
+    <string name="capitulo300_pregunta13A_opc5">Mensual</string>
+
+    <string name="capitulo300_pregunta14">14.¿CONSIDERA USTED QUE EL TIEMPO O ESPACIO QUE LOS MEDIOS DE COMUNICACIÓN BRINDAN A LAS NOTICIAS SOBRE LOS HECHOS DELICTIVOS ES:</string>
+    <string name="capitulo300_pregunta14_sp1">Mucho?</string>
+    <string name="capitulo300_pregunta14_sp2">Regular?</string>
+    <string name="capitulo300_pregunta14_sp3">Poco?</string>
+    <string name="capitulo300_pregunta14_sp4">Nada?</string>
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="texto_si">SI</string>
@@ -93,5 +242,8 @@
     <string name="texto_especifique">Especifique</string>
     <string name="texto_informante">Informante</string>
     <string name="texto_soles">Soles (En enteros)</string>
+    <string name="texto_ninguna">NINGUNA</string>
+    <string name="texto_letras">Letras</string>
+    <string name="texto_noaplica">NO APLICA</string>
 
 </resources>

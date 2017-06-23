@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="@dimen/textoMedium"
+        android:layout_marginBottom="@dimen/pregunta_margin"
         android:text="@string/capitulo100_pregunta5"/>
     <LinearLayout
         android:id="@+id/c100_pregunta5_layout_subpregunta"
@@ -27,6 +28,7 @@
             android:text="@string/texto_soles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/textoSmall"
             android:layout_margin="@dimen/pregunta_margin" />
         <EditText
             android:inputType="numberDecimal"
@@ -40,6 +42,7 @@
             android:layout_margin="@dimen/pregunta_margin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="@dimen/textoSmall"
             android:text="@string/texto_nosabe"
             />
     </LinearLayout>

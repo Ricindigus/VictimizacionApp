@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cap300_pregunta2_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/pregunta_margin"
+    android:padding="@dimen/layout_margin"
+    android:background="@drawable/borde_layout_preguntas">
+    <TextView
+        android:id="@+id/cap300_pregunta2_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/textoMedium"
+        android:layout_marginBottom="@dimen/pregunta_margin"
+        android:text="@string/capitulo300_pregunta2"/>
+
+</LinearLayout>
