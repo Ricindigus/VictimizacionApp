@@ -9,6 +9,7 @@
     <string name="capitulo500_titulo">CAPÍTULO 500: CARACTERIZACIÓN DE LOS HECHOS DELICTIVOS COMETIDOS AL HOGAR</string>
     <string name="capitulo600_titulo">CAPÍTULO 600: CARACTERIZACIÓN DE LOS HECHOS DELICTIVOS COMETIDOS A LA PERSONA</string>
     <string name="capitulo700_titulo">CAPÍTULO 700: CARACTERÍSTICAS GENERALES DE LA PERSONA SELECCIONADA</string>
+    <string name="capitulo700_descripcion">A  continuación,  le  haré  algunas  preguntas  para  saber  si  usted presenta alguna limitación o dificultad PERMANENTE, que le impida o dificulte desarrollarse normalmente en sus actividades diarias</string>
 
     <!--secciones o grupos-->
     <string name="capitulo100_sgObservacion">OBSERVACIÓN DIRECTA</string>
@@ -271,8 +272,120 @@
     <string name="capitulo402_pregunta4">¿Cuántas veces?</string>
 
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Capitulo 700-->
+    <string name="capitulo700_pregunta1">1.¿TIENE USTED LIMITACIONES DE FORMA PERMANENTE, PARA:</string>
+    <string name="capitulo700_pregunta1_sp1">1.Moverse o caminar, para usar brazos o piernas?</string>
+    <string name="capitulo700_pregunta1_sp2">2.Ver, aun usando anteojos?</string>
+    <string name="capitulo700_pregunta1_sp3">3.Hablar o comunicarse, aun usando el lenguaje de señas u otro?</string>
+    <string name="capitulo700_pregunta1_sp4">4.Oír, aun usando audífonos?</string>
+    <string name="capitulo700_pregunta1_sp5">5.Entender o aprender, concentrarse y recordar?</string>
+    <string name="capitulo700_pregunta1_sp6">6.Relacionarse con los demás, por sus pensamientos, sentimientos, emociones o conductas?</string>
 
+    <string name="capitulo700_pregunta2">2.¿CUÁL ES EL ÚLTIMO NIVEL DE ESTUDIOS QUE APROBÓ?</string>
+    <string name="capitulo700_pregunta2_sp1">Sin nivel</string>
+    <string name="capitulo700_pregunta2_sp2">Educación inicial</string>
+    <string name="capitulo700_pregunta2_sp3">Primaria incompleta</string>
+    <string name="capitulo700_pregunta2_sp4">Primaria completa</string>
+    <string name="capitulo700_pregunta2_sp5">Secundaria incompleta</string>
+    <string name="capitulo700_pregunta2_sp6">Secundaria completa</string>
+    <string name="capitulo700_pregunta2_sp7">Superior no universitaria incompleta</string>
+    <string name="capitulo700_pregunta2_sp8">Superior no universitaria completa</string>
+    <string name="capitulo700_pregunta2_sp9">Superior universitaria incompleta</string>
+    <string name="capitulo700_pregunta2_sp10">Superior universitaria completa</string>
+    <string name="capitulo700_pregunta2_sp11">Postgrado</string>
+    <string name="capitulo700_pregunta2_anio">¿Cúal es el último año aprobado?</string>
+    <string name="capitulo700_pregunta2_grado">¿Cúal es el último año o grado aprobado?</string>
+    <string name="capitulo700_pregunta2_centro_estudios">Centro de Estudios:</string>
+    <string name="capitulo700_pregunta2_estatal">ESTATAL</string>
+    <string name="capitulo700_pregunta2_no_estatal">NO ESTATAL</string>
+
+    <string name="capitulo700_pregunta3">3.ACTUALMENTE, ¿ASISTE A ALGUNA INSTITUCIÓN O PROGRAMA DE EDUCACIÓN BÁSICA (INICIAL, PRIMARIA O SECUNDARIA)?</string>
+
+    <string name="capitulo700_pregunta4">4.¿CUÁL ES EL IDIOMA O LENGUA MATERNA QUE APRENDIÓ EN SU NIÑEZ:</string>
+    <string name="capitulo700_pregunta4_sp1">Quechua?</string>
+    <string name="capitulo700_pregunta4_sp2">Aymara?</string>
+    <string name="capitulo700_pregunta4_sp3">Otra lengua nativa?</string>
+    <string name="capitulo700_pregunta4_sp4">Castellano?</string>
+    <string name="capitulo700_pregunta4_sp5">Portugués?</string>
+    <string name="capitulo700_pregunta4_sp6">Otra lengua extranjera?</string>
+    <string name="capitulo700_pregunta4_sp7">ES SORDOMUDO/A</string>
+
+    <string name="capitulo700_pregunta5">5.POR SUS ANTEPASADOS Y DE ACUERDO A SUS COSTUMBRES, ¿USTED SE CONSIDERA:</string>
+    <string name="capitulo700_pregunta5_sp1">Quechua?</string>
+    <string name="capitulo700_pregunta5_sp2">Aymara?</string>
+    <string name="capitulo700_pregunta5_sp3">Nativo o Indígena de la Amazonía?</string>
+    <string name="capitulo700_pregunta5_sp4">Negro / Mulato / Zambo / Afro peruano?</string>
+    <string name="capitulo700_pregunta5_sp5">Blanco?</string>
+    <string name="capitulo700_pregunta5_sp6">Mestizo?</string>
+
+    <string name="capitulo700_pregunta6">6.¿USTED PERTENECE O SE CONSIDERA PARTE DE UN PUEBLO INDÍGENA?</string>
+    <string name="capitulo700_pregunta7">7.¿A QUÉ PUEBLO INDÍGENA PERTENECE?</string>
+
+    <string name="capitulo700_pregunta8">8.LA SEMANA PASADA DEL ......... AL ........., ¿USTED, TUVO ALGÚN TRABAJO, SIN CONTAR LOS QUEHACERES DEL HOGAR?</string>
+    <string name="capitulo700_pregunta8_cadena1">8.LA SEMANA PASADA DEL</string>
+    <string name="capitulo700_pregunta8_cadena2">, ¿USTED, TUVO ALGÚN TRABAJO, SIN CONTAR LOS QUEHACERES DEL HOGAR?</string>
+
+    <string name="capitulo700_pregunta9">9.AUNQUE NO TRABAJÓ LA SEMANA PASADA DEL ......... AL ........., ¿TIENE ALGÚN EMPLEO FIJO AL QUE PROXIMAMENTE VOLVERÁ?</string>
+    <string name="capitulo700_pregunta9_cadena1">9.AUNQUE NO TRABAJÓ LA SEMANA PASADA DEL </string>
+    <string name="capitulo700_pregunta9_cadena2">, ¿TIENE ALGÚN EMPLEO FIJO AL QUE PROXIMAMENTE VOLVERÁ?</string>
+
+    <string name="capitulo700_pregunta10">10.AUNQUE NO TRABAJÓ LA SEMANA PASADA DEL ......... AL ........., ¿TIENE ALGÚN NEGOCIO PROPIO AL QUE PROXIMAMENTE VOLVERÁ?</string>
+    <string name="capitulo700_pregunta10_cadena1">10.AUNQUE NO TRABAJÓ LA SEMANA PASADA DEL </string>
+    <string name="capitulo700_pregunta10_cadena2">, ¿TIENE ALGÚN NEGOCIO PROPIO AL QUE PROXIMAMENTE VOLVERÁ?</string>
+
+    <string name="capitulo700_pregunta11">11.LA SEMANA PASADA DEL ......... AL ........., ¿REALIZÓ ALGUNA ACTIVIDAD AL MENOS UNA HORA PARA OBTENER INGRESOS EN DINERO O EN ESPECIE, COMO:</string>
+    <string name="capitulo700_pregunta11_cadena1">11.LA SEMANA PASADA DEL </string>
+    <string name="capitulo700_pregunta11_cadena2">, ¿REALIZÓ ALGUNA ACTIVIDAD AL MENOS UNA HORA PARA OBTENER INGRESOS EN DINERO O EN ESPECIE, COMO:</string>
+
+    <string name="capitulo700_pregunta11_sp1">1.Trabajando en algún negocio propio o de un familiar?</string>
+    <string name="capitulo700_pregunta11_sp2">2.Ofreciendo algún servicio?</string>
+    <string name="capitulo700_pregunta11_sp3">3.Haciendo algo en casa para vender?</string>
+    <string name="capitulo700_pregunta11_sp4">4.Vendiendo productos de belleza, ropa, joyas, etc.?</string>
+    <string name="capitulo700_pregunta11_sp5">5.Haciendo prácticas pagadas en un centro de trabajo?</string>
+    <string name="capitulo700_pregunta11_sp6">6.Trabajando para un hogar particular?</string>
+    <string name="capitulo700_pregunta11_sp7">7.Fabricando algún producto?</string>
+    <string name="capitulo700_pregunta11_sp8">8.Realizando labores remuneradas en la chacra o cuidado de animales?</string>
+    <string name="capitulo700_pregunta11_sp9">9.Ayudando a un familiar sin remuneración?</string>
+
+    <string name="capitulo700_pregunta12">12.LA SEMANA PASADA DEL ......... AL ......... ¿A QUÉ ACTIVIDAD SE DEDICÓ EL NEGOCIO, ORGANISMO O EMPRESA EN LA QUE TRABAJÓ?</string>
+    <string name="capitulo700_pregunta12_cadena1">12.LA SEMANA PASADA DEL </string>
+    <string name="capitulo700_pregunta12_cadena2">¿A QUÉ ACTIVIDAD SE DEDICÓ EL NEGOCIO, ORGANISMO O EMPRESA EN LA QUE TRABAJÓ?</string>
+    <string name="capitulo700_pregunta12_sp1">Agrícola</string>
+    <string name="capitulo700_pregunta12_sp2">Pecuaria</string>
+    <string name="capitulo700_pregunta12_sp3">Forestal</string>
+    <string name="capitulo700_pregunta12_sp4">Pesquera</string>
+    <string name="capitulo700_pregunta12_sp5">Minera</string>
+    <string name="capitulo700_pregunta12_sp6">Artesanal</string>
+    <string name="capitulo700_pregunta12_sp7">Comercial</string>
+    <string name="capitulo700_pregunta12_sp8">Servicios</string>
+    <string name="capitulo700_pregunta12_sp9">Estado (Gobierno)</string>
+
+    <string name="capitulo700_pregunta13">13.USTED SE DESEMPEÑÓ EN SU OCUPACIÓN PRINCIPAL O NEGOCIO COMO:</string>
+    <string name="capitulo700_pregunta13_sp1">¿Empleador o patrono?</string>
+    <string name="capitulo700_pregunta13_sp2">¿Trabajador independiente?</string>
+    <string name="capitulo700_pregunta13_sp3">¿Empleado?</string>
+    <string name="capitulo700_pregunta13_sp4">¿Obrero?</string>
+    <string name="capitulo700_pregunta13_sp5">¿Trabajador familiar no remunerado?</string>
+    <string name="capitulo700_pregunta13_sp6">¿Trabajador del hogar?</string>
+
+    <string name="capitulo700_pregunta14">14.EN SUS OCUPACIONES, ¿CUÁL FUE SU INGRESO EN EL MES ANTERIOR?</string>
+
+    <string name="capitulo700_pregunta15">15.LA SEMANA PASADA DEL......... AL........., ¿USTED, QUERÍA TRABAJAR?</string>
+    <string name="capitulo700_pregunta15_cadena1">15.LA SEMANA PASADA DEL</string>
+    <string name="capitulo700_pregunta15_cadena2">, ¿USTED, QUERÍA TRABAJAR?</string>
+
+    <string name="capitulo700_pregunta16">16.LA SEMANA PASADA DEL ......... AL ........., ¿ESTUVO DISPONIBLE PARA TRABAJAR?</string>
+    <string name="capitulo700_pregunta16_cadena1">16.LA SEMANA PASADA DEL </string>
+    <string name="capitulo700_pregunta16_cadena2">,¿ESTUVO DISPONIBLE PARA TRABAJAR?</string>
+
+    <string name="capitulo700_pregunta17">17.LA SEMANA PASADA DEL ......... AL ........., ¿HIZO ALGO PARA CONSEGUIR TRABAJO?</string>
+    <string name="capitulo700_pregunta17_cadena1">17.LA SEMANA PASADA DEL </string>
+    <string name="capitulo700_pregunta17_cadena2">,¿HIZO ALGO PARA CONSEGUIR TRABAJO?</string>
+
+    <string name="capitulo700_pregunta18">18.¿CUÁNTAS SEMANAS HA ESTADO BUSCANDO TRABAJO SIN INTERRUPCIONES?</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="texto_si">SI</string>
     <string name="texto_no">NO</string>
     <string name="texto_nosabe">NO SABE</string>
@@ -285,5 +398,10 @@
     <string name="texto_ninguna">NINGUNA</string>
     <string name="texto_letras">Letras</string>
     <string name="texto_noaplica">NO APLICA</string>
+    <string name="texto_al"> AL </string>
+    <string name="texto_monetario">Monetario (Soles - En enteros):</string>
+    <string name="texto_en_especie">En especie  (Soles - En enteros):</string>
+    <string name="numero_semanas">Número de Semanas:</string>
+
 
 </resources>

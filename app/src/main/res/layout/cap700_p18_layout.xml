@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cap700_pregunta18_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/pregunta_margin"
+    android:padding="@dimen/layout_margin"
+    android:background="@drawable/borde_layout_preguntas">
+    <TextView
+        android:id="@+id/cap700_pregunta18_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/textoMedium"
+        android:layout_marginBottom="@dimen/pregunta_margin"
+        android:text="@string/capitulo700_pregunta18"/>
+    <LinearLayout
+        android:id="@+id/cap700_pregunta18_especifique_layout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/layout_margin"
+        android:layout_margin="@dimen/layout_margin">
+        <TextView
+            android:id="@+id/cap700_pregunta18_especifique_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/layout_margin"
+            android:text="@string/numero_semanas"/>
+        <EditText
+            android:id="@+id/cap700_pregunta18_especifique_edit"
+            android:inputType="number"
+            android:background="@drawable/cajas_de_texto"
+            android:layout_width="100dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+</LinearLayout>

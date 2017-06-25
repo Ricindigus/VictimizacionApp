@@ -11,18 +11,19 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Capitulo200Fragment extends Fragment {
+public class Capitulo700Fragment extends Fragment {
 
 
-    public Capitulo200Fragment() {
+    public Capitulo700Fragment() {
         // Required empty public constructor
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_capitulo200, container, false);
+        return inflater.inflate(R.layout.fragment_capitulo700, container, false);
     }
 
 }
