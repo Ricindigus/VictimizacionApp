@@ -17,7 +17,7 @@
         android:text="@string/capitulo300_pregunta5"/>
     <CheckBox
         android:id="@+id/c300_pregunta5_checkbox1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/textoSmall"
         android:text="@string/capitulo300_pregunta5_sp1"
@@ -31,70 +31,70 @@
         />
     <CheckBox
         android:id="@+id/c300_pregunta5_checkbox3"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/textoSmall"
         android:text="@string/capitulo300_pregunta5_sp3"
         />
     <CheckBox
         android:id="@+id/c300_pregunta5_checkbox4"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/textoSmall"
         android:text="@string/capitulo300_pregunta5_sp4"
         />
     <CheckBox
         android:id="@+id/c300_pregunta5_checkbox5"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/textoSmall"
         android:text="@string/capitulo300_pregunta5_sp5"
         />
     <CheckBox
         android:id="@+id/c300_pregunta5_checkbox6"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/textoSmall"
         android:text="@string/capitulo300_pregunta5_sp6"
         />
     <CheckBox
         android:id="@+id/c300_pregunta5_checkbox7"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/textoSmall"
         android:text="@string/capitulo300_pregunta5_sp7"
         />
     <CheckBox
         android:id="@+id/c300_pregunta5_checkbox8"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/textoSmall"
         android:text="@string/capitulo300_pregunta5_sp8"
         />
     <CheckBox
         android:id="@+id/c300_pregunta5_checkbox9"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/textoSmall"
         android:text="@string/capitulo300_pregunta5_sp9"
         />
     <CheckBox
         android:id="@+id/c300_pregunta5_checkbox10"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/textoSmall"
         android:text="@string/capitulo300_pregunta5_sp10"
         />
     <CheckBox
         android:id="@+id/c300_pregunta5_checkbox11"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/textoSmall"
         android:text="@string/capitulo300_pregunta5_sp11"
         />
     <CheckBox
         android:id="@+id/c300_pregunta5_checkbox12"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/textoSmall"
         android:text="@string/texto_otrop"
@@ -109,7 +109,7 @@
         android:visibility="gone"/>
     <CheckBox
         android:id="@+id/c300_pregunta5_checkbox13"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/textoSmall"
         android:text="@string/texto_ninguna"

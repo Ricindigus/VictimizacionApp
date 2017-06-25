@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 public class EncuestaActivity extends AppCompatActivity {
 
-    private Capitulo300Fragment capitulo300Fragment;
+    private Capitulo100Fragment capitulo300Fragment;
     private FragmentManager fragmentManager;
     private FragmentTransaction fragmentTransaction;
 
@@ -16,7 +16,7 @@ public class EncuestaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        capitulo300Fragment = new Capitulo300Fragment();
+        capitulo300Fragment = new Capitulo100Fragment();
         fragmentManager = getSupportFragmentManager();
         fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.container,capitulo300Fragment);

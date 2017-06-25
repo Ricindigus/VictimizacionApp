@@ -32,21 +32,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp1_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp1_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp1_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -69,21 +71,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp2_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp2_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp2_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -106,21 +110,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp3_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp3_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp3_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -143,21 +149,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp4_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp4_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp4_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -180,21 +188,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp5_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp5_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp5_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -217,21 +227,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp6_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp6_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp6_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -254,21 +266,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp7_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp7_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp7_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -291,21 +305,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp8_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp8_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp8_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -328,21 +344,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp9_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp9_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp9_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -365,21 +383,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp10_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp10_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp10_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -402,21 +422,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp11_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp11_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp11_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -439,21 +461,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp12_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp12_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp12_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -476,21 +500,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp13_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp13_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp13_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -513,21 +539,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp14_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp14_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp14_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -550,21 +578,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp15_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp15_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp15_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -587,21 +617,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp16_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp16_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp16_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -624,21 +656,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp17_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp17_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp17_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"
@@ -661,21 +695,23 @@
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp18_radiosi"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp18_radiono"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="100dp"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
             />
         <RadioButton
             android:id="@+id/cap300_pregunta10_sp18_radionosabe"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_noaplica"

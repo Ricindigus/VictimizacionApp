@@ -149,7 +149,7 @@
     <string name="capitulo300_pregunta7">7.¿PODRÍA USTED INDICARME SI EN SU HOGAR SE HA INSTALADO O ADOPTADO ALGÚN TIPO DE MEDIDA PARA PREVENIR O PROTEGERSE DE LA DELINCUENCIA?</string>
 
     <string name="capitulo300_pregunta8">8.DÍGAME USTED, ¿CON QUÉ MEDIDAS DE SEGURIDAD CUENTA ACTUALMENTE:</string>
-    <string name="capitulo300_pregunta8A">8A.¿ÉSTA MEDIDA SE INSTALÓ DURANTE LOS ÚLTIMOS 12 MESES?</string>
+    <string name="capitulo300_pregunta8A">¿ÉSTA MEDIDA SE INSTALÓ DURANTE LOS ÚLTIMOS 12 MESES?</string>
     <string name="capitulo300_pregunta8_sp1">1. Puerta blindada?</string>
     <string name="capitulo300_pregunta8_sp2">2. Rejas en las ventanas?</string>
     <string name="capitulo300_pregunta8_sp3">3. Cerraduras especiales en las puertas?</string>

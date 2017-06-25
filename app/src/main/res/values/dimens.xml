@@ -5,5 +5,6 @@
     <dimen name="textoLarge">25dp</dimen>
     <dimen name="textoMedium">20dp</dimen>
     <dimen name="textoSmall">15dp</dimen>
+    <dimen name="textoVerySmall">15dp</dimen>
     <dimen name="subpregunta_margin">5dp</dimen>
 </resources>

@@ -22,7 +22,7 @@
         <RadioButton
             android:layout_margin="@dimen/subpregunta_margin"
             android:id="@+id/cap300_pregunta7_radiobutton1"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_si"
@@ -30,7 +30,7 @@
         <RadioButton
             android:layout_margin="@dimen/subpregunta_margin"
             android:id="@+id/cap300_pregunta7_radiobutton2"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_no"
@@ -38,7 +38,7 @@
         <RadioButton
             android:layout_margin="@dimen/subpregunta_margin"
             android:id="@+id/cap300_pregunta7_radiobutton3"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_nosabe"

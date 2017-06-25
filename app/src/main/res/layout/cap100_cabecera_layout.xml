@@ -7,6 +7,8 @@
     <TextView
         android:id="@+id/cabecera100_nombre_capitulo"
         android:layout_marginBottom="@dimen/layout_margin"
+        android:layout_marginLeft="@dimen/pregunta_margin"
+        android:layout_marginRight="@dimen/pregunta_margin"
         android:padding="10dp"
         android:textColor="@color/icons"
         android:textStyle="bold"
@@ -24,8 +26,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_gravity="center"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
+        android:layout_marginLeft="@dimen/pregunta_margin"
+        android:layout_marginRight="@dimen/pregunta_margin"
         android:background="@drawable/borde_layout_informante"
         >
         <TextView

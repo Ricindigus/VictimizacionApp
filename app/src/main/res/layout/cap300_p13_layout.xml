@@ -21,42 +21,42 @@
             android:text="@string/capitulo300_pregunta13"/>
         <CheckBox
             android:id="@+id/c300_pregunta13_checkbox1"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo300_pregunta13_sp1"
             />
         <CheckBox
             android:id="@+id/c300_pregunta13_checkbox2"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo300_pregunta13_sp2"
             />
         <CheckBox
             android:id="@+id/c300_pregunta13_checkbox3"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo300_pregunta13_sp3"
             />
         <CheckBox
             android:id="@+id/c300_pregunta13_checkbox4"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo300_pregunta13_sp4"
             />
         <CheckBox
             android:id="@+id/c300_pregunta13_checkbox5"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo300_pregunta13_sp5"
             />
         <CheckBox
             android:id="@+id/c300_pregunta13_checkbox6"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_otrop"
@@ -64,14 +64,14 @@
         <EditText
             android:id="@+id/c300_pregunta13_edittext"
             android:inputType="text"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/texto_especifique"
             android:textSize="@dimen/textoSmall"
             android:visibility="gone"/>
         <CheckBox
             android:id="@+id/c300_pregunta13_checkbox7"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/texto_ninguna"

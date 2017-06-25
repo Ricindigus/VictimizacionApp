@@ -21,7 +21,7 @@
         <RadioButton
             android:layout_margin="@dimen/subpregunta_margin"
             android:id="@+id/c300_pregunta14_radiobutton1"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo300_pregunta14_sp1"
@@ -29,7 +29,7 @@
         <RadioButton
             android:layout_margin="@dimen/subpregunta_margin"
             android:id="@+id/c300_pregunta14_radiobutton2"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo300_pregunta14_sp2"
@@ -37,7 +37,7 @@
         <RadioButton
             android:layout_margin="@dimen/subpregunta_margin"
             android:id="@+id/c300_pregunta14_radiobutton3"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo300_pregunta14_sp3"
@@ -45,7 +45,7 @@
         <RadioButton
             android:layout_margin="@dimen/subpregunta_margin"
             android:id="@+id/c300_pregunta14_radiobutton4"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textoSmall"
             android:text="@string/capitulo300_pregunta14_sp4"

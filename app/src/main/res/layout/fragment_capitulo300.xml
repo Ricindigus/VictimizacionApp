@@ -22,6 +22,8 @@
         <include layout="@layout/cap300_p8_layout"/>
         <include layout="@layout/cap300_p9_layout"/>
         <include layout="@layout/cap300_p10_layout"/>
+        <include layout="@layout/cap300_p11_layout"/>
+        <include layout="@layout/cap300_p12_layout"/>
         <include layout="@layout/cap300_p13_layout"/>
     </LinearLayout>
 </LinearLayout>
