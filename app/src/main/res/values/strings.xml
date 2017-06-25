@@ -23,8 +23,10 @@
     <string name="capitulo300_sgParticipacionCiu">PARTICIPACIÓN CIUDADANA</string>
     <string name="capitulo300_sgMedioscomunicacion">MEDIOS DE COMUNICACIÓN</string>
 
-    <string name="capitulo400_sgSeccion501">SECCIÓN 401: PREGUNTAS FILTRO DE LOS HECHOS DELICTIVOS COMETIDOS A LA PERSONA</string>
-    <string name="capitulo400_sgSeccion502">SECCIÓN 402: PREGUNTAS FILTRO DE LOS HECHOS DELICTIVOS COMETIDOS AL HOGAR</string>
+    <string name="capitulo400_sgSeccion401">SECCIÓN 401: PREGUNTAS FILTRO DE LOS HECHOS DELICTIVOS COMETIDOS A LA PERSONA</string>
+    <string name="capitulo400_sgSeccion401_descripcion">Sr/a. ahora, quisiera hacerle preguntas sobre algunas situaciones que le pudo haber pasado solo a usted, en la calle, en el parque, en un bar, en el transporte público o en algún otro lugar, dentro del territorio nacional. Por favor, NO considere lo que le haya sucedido a otros integrantes de su hogar y/o familia.</string>
+    <string name="capitulo400_sgSeccion402">SECCIÓN 402: PREGUNTAS FILTRO DE LOS HECHOS DELICTIVOS COMETIDOS AL HOGAR</string>
+    <string name="capitulo400_sgSeccion402_descripcion">Ahora me gustaría hacerle preguntas sobre algunas situaciones que usted o algún integrante de su hogar puedo haber pasado, dentro del territorio nacional.</string>
 
     <string name="capitulo600_sgSeccion601">SECCIÓN 601: ROBO, HURTO E INTENTO DE ROBO</string>
     <string name="capitulo600_sgSeccion602">SECCIÓN 602: AGRESIÓN FÍSICA Y VERBAL (Para los últimos cinco eventos delictivos)</string>
@@ -229,6 +231,44 @@
     <string name="capitulo300_pregunta14_sp2">Regular?</string>
     <string name="capitulo300_pregunta14_sp3">Poco?</string>
     <string name="capitulo300_pregunta14_sp4">Nada?</string>
+
+    <!--Capitulo 400-->
+    <string name="capitulo401_pregunta1">EN LOS ÚLTIMOS 3 AÑOS, DE JUN 13 A MAY 16</string>
+    <string name="capitulo401_pregunta1_sp1">1.¿Le robaron sus objetos personales, como cartera, celular, joyas, etc. usando la fuerza o amenaza? (No incluya robo en la vivienda, robo de vehículos automotor, motocicleta y bicicleta) (Robo con violencia o amenaza)</string>
+    <string name="capitulo401_pregunta1_sp2">2.¿Le intentaron robar sus objetos personales, como cartera, celular, joyas, etc. usando la fuerza o amenaza? (Intento de robo con violencia o amenaza)</string>
+    <string name="capitulo401_pregunta1_sp3">3.	Además de los robos que implican el uso de la fuerza o de la amenaza mencionados, ¿alguien le robo sus objetos personales, como cartera, celular, joyas, etc. sin usar la fuerza ni la amenaza (hurto)? (Robo sin violencia ni amenaza)</string>
+    <string name="capitulo401_pregunta1_sp4">4.¿Le agredieron físicamente en su casa u otro sitio a través de golpes, empujones, lanzamiento de objetos, patadas, cachetadas, etc., de modo que le generó lesiones como moretones, fracturas, etc.? (Agresión física)</string>
+    <string name="capitulo401_pregunta1_sp5">5.¿Le agredieron verbalmente en su casa u otro sitio a través de gritos, insultos, humillaciones, etc. de modo que le perturbó? No considere las agresiones verbales que haya recibido en el momento de la agresión física. (Agresión verbal)</string>
+    <string name="capitulo401_pregunta1_sp6">6.Además de los incidentes de agresión física y verbal que acabamos de mencionar, ¿ha sido amenazado, sin exigirle dinero u otra cosa, por alguien diciendo que le va a causar un daño a usted, a su familia, a sus bienes o su trabajo, de modo tal que usted creyó que podría cumplirse el daño? (Amenaza verbal o escrita)</string>
+    <string name="capitulo401_pregunta1_sp7">7.¿Alguien le ha exigido de manera violenta o intimidatoria hacer o dejar de hacer algo contra su voluntad para obtener dinero u otro beneficio? (Extorsión)</string>
+    <string name="capitulo401_pregunta1_sp8">8.¿Alguien ha obtenido de usted dinero u otro beneficio utilizando su cuenta bancaria, cheques o tarjeta de crédito o débito, mediante engaño o deshonestidad? (Fraude bancario)</string>
+    <string name="capitulo401_pregunta1_sp9">9.¿Alguien (empresa o persona) lo ha engañado al venderle un bien o realizarle algún servicio obteniendo de usted dinero u otros beneficios? Esto puede haber sucedido también a través de Internet. (Fraude al consumidor)</string>
+    <string name="capitulo401_pregunta1_sp10">10.Además de los engaños antes mencionados, ¿alguien lo ha sorprendido realizando otras modalidades de engaño, fraude o estafa? (Otros fraudes o estafas)</string>
+    <string name="capitulo401_pregunta2">¿Esta situación, ocurrió en los últimos 12 meses de jun 15 a may 16?</string>
+    <string name="capitulo401_pregunta3">¿Cuántas veces?</string>
+
+    <string name="capitulo402_pregunta1">1.EN LOS ÚLTIMOS 3 AÑOS DE JUN 13 A MAY 16 ¿USTED O ALGÚN INTEGRANTE DE SU HOGAR HA TENIDO DE SU PROPIEDAD, ALQUILADO O PRESTADO, ALGÚN/A:</string>
+    <string name="capitulo402_pregunta1_sp1">Robo e intento de robo en la vivienda</string>
+    <string name="capitulo402_pregunta1_sp2">Vehículo automotor, auto, camioneta, etc.?</string>
+    <string name="capitulo402_pregunta1_sp3">Motocicleta, mototáxi?</string>
+    <string name="capitulo402_pregunta1_sp4">Bicicleta?</string>
+    <string name="capitulo402_pregunta1_sp5">Vandalismo</string>
+    <string name="capitulo402_pregunta1_sp6">Secuestro</string>
+    <string name="capitulo402_pregunta2">2.EN LOS ÚLTIMOS 3 AÑOS DE JUN 13 A MAY 16 ¿A USTED O ALGÚN INTEGRANTE DE SU HOGAR LE HA OCURRIDO LAS SIGUIENTES SITUACIONES:</string>
+    <string name="capitulo402_pregunta2_sp1_g1">9.Robo en la vivienda?</string>
+    <string name="capitulo402_pregunta2_sp2_g1">10.Intento de robo en la vivienda?</string>
+    <string name="capitulo402_pregunta2_sp3_g2">1.Robo de vehículo automotor, auto, camioneta, etc.?</string>
+    <string name="capitulo402_pregunta2_sp4_g2">2.Intento de robo de vehículo automotor, auto, camioneta, etc.?</string>
+    <string name="capitulo402_pregunta2_sp5_g2">3.Robo de autopartes del vehículo automotor, auto, camioneta, etc.?</string>
+    <string name="capitulo402_pregunta2_sp6_g2">4.Intento de robo de autopartes del vehículo automotor, auto, camioneta, etc.?</string>
+    <string name="capitulo402_pregunta2_sp7_g3">5.Robo de motocicleta?</string>
+    <string name="capitulo402_pregunta2_sp8_g3">6.Intento de robo de motocicleta?</string>
+    <string name="capitulo402_pregunta2_sp9_g4">7.Robo de bicicleta?</string>
+    <string name="capitulo402_pregunta2_sp10_g4">8.Intento de robo de bicicleta?</string>
+    <string name="capitulo402_pregunta2_sp11_g5">11.¿Daños a sus bienes de manera intencional como rayones a su carro, grafiti a su casa, realizado por un grupo de pandilleros? (Vandalismo)</string>
+    <string name="capitulo402_pregunta2_sp12_g6">12.¿Algún integrante de su hogar fue retenido en contra de su voluntad o de manera ilegal, con el fin de exigir por su liberación dinero u otra forma de beneficio? (Secuestro)</string>
+    <string name="capitulo402_pregunta3">¿Esto ocurrió en los últimos 12 meses, de jun 15 a may 16?</string>
+    <string name="capitulo402_pregunta4">¿Cuántas veces?</string>
 
 
     <string name="hello_blank_fragment">Hello blank fragment</string>

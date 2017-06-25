@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/pregunta_margin"
+    android:layout_marginRight="@dimen/pregunta_margin"
+    android:id="@+id/cab400_layout">
+    <TextView
+        android:id="@+id/cabecera402_nombre_seccion"
+        android:padding="10dp"
+        android:textColor="@color/icons"
+        android:textStyle="bold"
+        android:textSize="@dimen/textoMedium"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/capitulo400_sgSeccion402"
+        />
+    <LinearLayout
+        android:id="@+id/cap300_layout_informante"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/borde_layout_preguntas"
+        >
+        <TextView
+            android:textSize="@dimen/textoSmall"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_margin="@dimen/pregunta_margin"
+            android:id="@+id/cap300_txt_informante"
+            android:text="@string/capitulo400_sgSeccion402_descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
