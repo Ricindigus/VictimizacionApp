@@ -19,44 +19,4 @@
         android:layout_height="wrap_content"
         android:text="@string/capitulo300_titulo"
         />
-    <LinearLayout
-        android:id="@+id/cap300_layout_informante"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_gravity="center"
-        android:background="@drawable/borde_layout_informante"
-        >
-        <TextView
-            android:textSize="@dimen/textoMedium"
-            android:textStyle="bold"
-            android:textColor="@color/icons"
-            android:gravity="center"
-            android:id="@+id/cap300_txt_informante"
-            android:text="@string/texto_informante"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/pregunta_margin"/>
-        <EditText
-            android:id="@+id/cap300_edt_informante"
-            android:paddingLeft="2dp"
-            android:layout_margin="@dimen/pregunta_margin"
-            android:inputType="text"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:background="@drawable/fondo_spinner"/>
-        <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:background="@drawable/fondo_spinner"-->
-        <!--android:layout_margin="@dimen/pregunta_margin">-->
-        <!--<Spinner-->
-        <!--android:id="@+id/cab1_spinner_informante"-->
-        <!--android:layout_gravity="center"-->
-        <!--android:gravity="center"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"/>-->
-        <!--</LinearLayout>-->
-    </LinearLayout>
 </LinearLayout>

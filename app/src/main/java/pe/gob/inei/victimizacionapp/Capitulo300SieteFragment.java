@@ -11,9 +11,10 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Capitulo100Fragment extends Fragment {
+public class Capitulo300SieteFragment extends Fragment {
 
-    public Capitulo100Fragment() {
+
+    public Capitulo300SieteFragment() {
         // Required empty public constructor
     }
 
@@ -22,7 +23,7 @@ public class Capitulo100Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_capitulo100, container, false);
+        return inflater.inflate(R.layout.fragment_capitulo300_siete, container, false);
     }
 
 }

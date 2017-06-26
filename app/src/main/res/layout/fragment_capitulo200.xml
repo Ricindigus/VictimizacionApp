@@ -2,9 +2,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="pe.gob.inei.victimizacionapp.Capitulo200Fragment">
 
-    <include layout="@layout/cap100_cabecera_layout"/>
 
 
+    <LinearLayout
+        android:id="@+id/cap200_residentes_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/layout_margin"
+        >
+        <include layout="@layout/cap200_cabecera_layout"/>
+        <include layout="@layout/informante_layout"/>
+        <FrameLayout
+            android:layout_margin="@dimen/layout_margin"
+            android:background="@drawable/borde_layout_preguntas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_residentes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"/>
+            </LinearLayout>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_agregar_residente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorAccent"
+                android:src="@android:drawable/ic_input_add"
+                android:tint="@android:color/white"
+                android:layout_gravity="bottom|right"
+                />
+        </FrameLayout>
+    </LinearLayout>
 </LinearLayout>

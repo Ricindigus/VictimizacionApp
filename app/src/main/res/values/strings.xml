@@ -83,6 +83,50 @@
 
     <string name="capitulo100_pregunta6">6.¿EN CUÁNTO ESTIMA EL MONTO MENSUAL QUE GASTÓ SU HOGAR EN OTROS BIENES Y/O SERVICIOS? (Considere educación, transporte, vestimenta, etc.; NO incluya gastos de alimentos)</string>
 
+    <!--Capitulo 200-->
+    <string name="capitulo200_pregunta1">1.¿CUÁL ES EL NOMBRE Y APELLIDOS DE CADA UNA DE LAS PERSONAS QUE VIVEN PERMANENTEMENTE EN ESTE HOGAR Y LAS QUE ESTÁN ALOJADAS AQUÍ? INCLUYA A LOS MIEMBROS DEL HOGAR AUSENTES Y RECIÉN NACIDOS</string>
+    <string name="capitulo200_pregunta1_nombres">NOMBRES:</string>
+    <string name="capitulo200_pregunta1_apellidos">APELLIDOS:</string>
+
+    <string name="capitulo200_pregunta2">2.¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL JEFE/A DEL HOGAR?</string>
+    <string name="capitulo200_pregunta2_sp1">Jefe/a</string>
+    <string name="capitulo200_pregunta2_sp2">Esposa/o</string>
+    <string name="capitulo200_pregunta2_sp3">Hijo/a</string>
+    <string name="capitulo200_pregunta2_sp4">Yerno/Nuera</string>
+    <string name="capitulo200_pregunta2_sp5">Nieto/a</string>
+    <string name="capitulo200_pregunta2_sp6">Padres/Suegros/as</string>
+    <string name="capitulo200_pregunta2_sp7">Otros parientes</string>
+    <string name="capitulo200_pregunta2_sp8">Trabajador/a del hogar</string>
+    <string name="capitulo200_pregunta2_sp9">Pensionista</string>
+    <string name="capitulo200_pregunta2_sp10">Otros no parientes</string>
+
+    <string name="capitulo200_pregunta3">3.¿ES MIEMBRO DEL HOGAR?</string>
+
+    <string name="capitulo200_pregunta4">4.¿SE ENCUENTRA AUSENTE DEL HOGAR 30 DÍAS O MÁS?</string>
+
+    <string name="capitulo200_pregunta5">5.¿ESTÁ PRESENTE EN EL HOGAR 30 DÍAS O MÁS?</string>
+
+    <string name="capitulo200_pregunta6">6.SEXO</string>
+    <string name="capitulo200_pregunta6_hombre">Hombre</string>
+    <string name="capitulo200_pregunta6_mujer">Mujer</string>
+
+    <string name="capitulo200_pregunta7">7.¿QUÉ EDAD TIENE EN AÑOS CUMPLIDOS?</string>
+    <string name="capitulo200_pregunta7_anios">Años:</string>
+    <string name="capitulo200_pregunta7_meses">Meses:</string>
+    <string name="capitulo200_pregunta7_dia">Día:</string>
+    <string name="capitulo200_pregunta7_mes">Mes:</string>
+
+
+    <string name="capitulo200_pregunta8">8.¿CUÁL ES SU ESTADO CIVIL O CONYUGAL?</string>
+    <string name="capitulo200_pregunta8_sp1">Conviviente</string>
+    <string name="capitulo200_pregunta8_sp2">Casado/a</string>
+    <string name="capitulo200_pregunta8_sp3">Viudo/a</string>
+    <string name="capitulo200_pregunta8_sp4">Divorciado/a</string>
+    <string name="capitulo200_pregunta8_sp5">Separado/a</string>
+    <string name="capitulo200_pregunta8_sp6">Soltero/a</string>
+
+    <string name="capitulo200_pregunta9">9.FECHA DE NACIMIENTO</string>
+
     <!--Capitulo 300-->
     <string name="capitulo300_pregunta1">1.USTED, ¿CÓMO SE SIENTE:</string>
     <string name="capitulo300_pregunta1_sp1">1.En su casa?</string>
@@ -402,6 +446,7 @@
     <string name="texto_monetario">Monetario (Soles - En enteros):</string>
     <string name="texto_en_especie">En especie  (Soles - En enteros):</string>
     <string name="numero_semanas">Número de Semanas:</string>
-
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 
 </resources>

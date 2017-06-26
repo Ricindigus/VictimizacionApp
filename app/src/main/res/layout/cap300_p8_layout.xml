@@ -52,6 +52,7 @@
         android:gravity="center_vertical"
         android:padding="5dp"
         android:layout_marginLeft="@dimen/layout_margin"
+        android:visibility="gone"
         android:background="@drawable/borde_pregunta8a">
         <TextView
             android:id="@+id/cap300_pregunta8a_textview1"
@@ -117,6 +118,7 @@
         android:gravity="center_vertical"
         android:padding="5dp"
         android:layout_marginLeft="@dimen/layout_margin"
+        android:visibility="gone"
         android:background="@drawable/borde_pregunta8a">
         <TextView
             android:id="@+id/cap300_pregunta8a_textview2"
@@ -182,6 +184,7 @@
         android:padding="5dp"
         android:gravity="center_vertical"
         android:layout_marginLeft="@dimen/layout_margin"
+        android:visibility="gone"
         android:background="@drawable/borde_pregunta8a">
         <TextView
             android:id="@+id/cap300_pregunta8a_textview3"
@@ -247,6 +250,7 @@
         android:padding="5dp"
         android:gravity="center_vertical"
         android:layout_marginLeft="@dimen/layout_margin"
+        android:visibility="gone"
         android:background="@drawable/borde_pregunta8a">
         <TextView
             android:id="@+id/cap300_pregunta8a_textview4"
@@ -312,6 +316,7 @@
         android:padding="5dp"
         android:gravity="center_vertical"
         android:layout_marginLeft="@dimen/layout_margin"
+        android:visibility="gone"
         android:background="@drawable/borde_pregunta8a">
         <TextView
             android:id="@+id/cap300_pregunta8a_textview5"
@@ -377,6 +382,7 @@
         android:padding="5dp"
         android:gravity="center_vertical"
         android:layout_marginLeft="@dimen/layout_margin"
+        android:visibility="gone"
         android:background="@drawable/borde_pregunta8a">
         <TextView
             android:id="@+id/cap300_pregunta8a_textview6"
@@ -442,6 +448,7 @@
         android:padding="5dp"
         android:gravity="center_vertical"
         android:layout_marginLeft="@dimen/layout_margin"
+        android:visibility="gone"
         android:background="@drawable/borde_pregunta8a">
         <TextView
             android:id="@+id/cap300_pregunta8a_textview7"
@@ -507,6 +514,7 @@
         android:padding="5dp"
         android:gravity="center_vertical"
         android:layout_marginLeft="@dimen/layout_margin"
+        android:visibility="gone"
         android:background="@drawable/borde_pregunta8a">
         <TextView
             android:id="@+id/cap300_pregunta8a_textview8"
@@ -572,6 +580,7 @@
         android:padding="5dp"
         android:gravity="center_vertical"
         android:layout_marginLeft="@dimen/layout_margin"
+        android:visibility="gone"
         android:background="@drawable/borde_pregunta8a">
         <TextView
             android:id="@+id/cap300_pregunta8a_textview9"
@@ -637,6 +646,7 @@
         android:padding="5dp"
         android:gravity="center_vertical"
         android:layout_marginLeft="@dimen/layout_margin"
+        android:visibility="gone"
         android:background="@drawable/borde_pregunta8a">
         <TextView
             android:id="@+id/cap300_pregunta8a_textview10"
@@ -702,6 +712,7 @@
         android:padding="5dp"
         android:gravity="center_vertical"
         android:layout_marginLeft="@dimen/layout_margin"
+        android:visibility="gone"
         android:background="@drawable/borde_pregunta8a">
         <TextView
             android:id="@+id/cap300_pregunta8a_textview11"
@@ -767,6 +778,7 @@
         android:padding="5dp"
         android:gravity="center_vertical"
         android:layout_marginLeft="@dimen/layout_margin"
+        android:visibility="gone"
         android:background="@drawable/borde_pregunta8a">
         <TextView
             android:id="@+id/cap300_pregunta8a_textview12"

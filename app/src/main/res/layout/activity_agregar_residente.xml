@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pe.gob.inei.victimizacionapp.AgregarResidenteActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="@dimen/layout_margin"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/agregar_txtNumero"
+                android:layout_margin="@dimen/layout_margin"
+                android:textSize="@dimen/textoMedium"
+                android:text="Residente n°"
+                android:padding="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borde_layout_preguntas"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout_preguntas"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_margin="@dimen/layout_margin"
+                    android:text="@string/capitulo200_pregunta1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="@dimen/layout_margin"
+                    android:layout_marginRight="@dimen/layout_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/capitulo200_pregunta1_nombres"/>
+                    <EditText
+                        android:id="@+id/agregar_edtNombres"
+                        android:background="@drawable/cajas_de_texto"
+                        android:inputType="text"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_margin="@dimen/layout_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_margin"
+                    android:layout_marginRight="@dimen/layout_margin"
+                    >
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/capitulo200_pregunta1_apellidos"/>
+                    <EditText
+                        android:id="@+id/agregar_edtApellidos"
+                        android:background="@drawable/cajas_de_texto"
+                        android:inputType="text"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:padding="@dimen/layout_margin"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout_preguntas"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/capitulo200_pregunta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/layout_margin"/>
+                <RadioGroup
+                    android:id="@+id/agregar_radioParentesco"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta3_radio_sp1"
+                        android:text="@string/capitulo200_pregunta2_sp1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta3_radio_sp2"
+                        android:text="@string/capitulo200_pregunta2_sp2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta3_radio_sp3"
+                        android:text="@string/capitulo200_pregunta2_sp3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta3_radio_sp4"
+                        android:text="@string/capitulo200_pregunta2_sp4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta3_radio_sp5"
+                        android:text="@string/capitulo200_pregunta2_sp5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta3_radio_sp6"
+                        android:text="@string/capitulo200_pregunta2_sp6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta3_radio_sp7"
+                        android:text="@string/capitulo200_pregunta2_sp7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta3_radio_sp8"
+                        android:text="@string/capitulo200_pregunta2_sp8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta3_radio_sp9"
+                        android:text="@string/capitulo200_pregunta2_sp9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta3_radio_sp10"
+                        android:text="@string/capitulo200_pregunta2_sp10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout_preguntas"
+                android:layout_margin="@dimen/layout_margin"
+                android:padding="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/capitulo200_pregunta3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/layout_margin"/>
+                <RadioGroup
+                    android:id="@+id/agregar_radioMiembroHogar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta3_radiosi"
+                        android:text="@string/texto_si"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta3_radiono"
+                        android:text="@string/texto_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:padding="@dimen/layout_margin"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout_preguntas"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="@dimen/layout_margin"
+                    android:text="@string/capitulo200_pregunta4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <RadioGroup
+                    android:id="@+id/agregar_radioAusente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta4_radiosi"
+                        android:text="@string/texto_si"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta4_radiono"
+                        android:text="@string/texto_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout_preguntas"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_margin="@dimen/layout_margin"
+                    android:text="@string/capitulo200_pregunta5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <RadioGroup
+                    android:id="@+id/agregar_radioPresente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta5_radiosi"
+                        android:text="@string/texto_si"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta5_radiono"
+                        android:text="@string/texto_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:padding="@dimen/layout_margin"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout_preguntas"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="@dimen/layout_margin"
+                    android:text="@string/capitulo200_pregunta6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <RadioGroup
+                    android:id="@+id/agregar_radioSexo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta6_radio_hombre"
+                        android:text="@string/capitulo200_pregunta6_hombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/capitulo200_pregunta6_radio_mujer"
+                        android:text="@string/capitulo200_pregunta6_mujer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout_preguntas"
+                android:padding="@dimen/layout_margin"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="@dimen/layout_margin"
+                    android:text="@string/capitulo200_pregunta7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="@dimen/layout_margin"
+                    android:layout_marginRight="@dimen/layout_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/capitulo200_pregunta7_anios"/>
+                    <EditText
+                        android:id="@+id/agregar_edtAnios"
+                        android:background="@drawable/cajas_de_texto"
+                        android:inputType="number"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="50dp"/>
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/capitulo200_pregunta7_meses"/>
+                    <EditText
+                        android:id="@+id/agregar_edtMeses"
+                        android:background="@drawable/cajas_de_texto"
+                        android:inputType="number"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="@dimen/layout_margin"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout_preguntas"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="@dimen/layout_margin"
+                    android:text="@string/capitulo200_pregunta8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <RadioGroup
+                    android:id="@+id/agregar_radioEstadoCivil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:text="@string/capitulo200_pregunta8_sp1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:text="@string/capitulo200_pregunta8_sp2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:text="@string/capitulo200_pregunta8_sp3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:text="@string/capitulo200_pregunta8_sp4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:text="@string/capitulo200_pregunta8_sp5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:text="@string/capitulo200_pregunta8_sp6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="@dimen/layout_margin"
+                android:background="@drawable/borde_layout_preguntas"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginBottom="@dimen/layout_margin"
+                    android:text="@string/capitulo200_pregunta9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="@dimen/layout_margin"
+                    android:layout_marginRight="@dimen/layout_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/capitulo200_pregunta7_dia"/>
+                    <EditText
+                        android:id="@+id/agregar_edtDia"
+                        android:background="@drawable/cajas_de_texto"
+                        android:inputType="number"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="50dp"/>
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/capitulo200_pregunta7_mes"/>
+                    <EditText
+                        android:id="@+id/agregar_edtMes"
+                        android:background="@drawable/cajas_de_texto"
+                        android:inputType="number"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_agregar"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_gravity="center"
+                android:text="guardar datos del residente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/RaisedButtonDark"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

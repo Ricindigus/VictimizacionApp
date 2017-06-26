@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="pe.gob.inei.victimizacionapp.Capitulo100Fragment">
+    tools:context="pe.gob.inei.victimizacionapp.Capitulo100UnoFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -12,11 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <include layout="@layout/cap100_cabecera_layout"/>
+        <include layout="@layout/informante_layout"/>
         <include layout="@layout/cap100_p1_layout"/>
         <include layout="@layout/cap100_p2_layout"/>
         <include layout="@layout/cap100_p3_layout"/>
-        <include layout="@layout/cap100_p4_layout"/>
-        <include layout="@layout/cap100_p5_layout"/>
-        <include layout="@layout/cap100_p6_layout"/>
     </LinearLayout>
 </LinearLayout>

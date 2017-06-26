@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Capitulo100_1"
+            android:id="@+id/opcion_cap100_1"
+            android:checked="false"
+            />
+        <item android:title="Capitulo100_2"
+            android:id="@+id/opcion_cap100_2"
+            android:checked="false"
+            />
+        <item android:title="Capitulo200"
+            android:id="@+id/opcion_cap200"
+            android:checked="false"
+            />
+        <item android:title="Capitulo300_1"
+            android:id="@+id/opcion_cap300_1"
+            android:checked="false"
+            />
+        <item android:title="Capitulo300_2"
+            android:id="@+id/opcion_cap300_2"
+            android:checked="false"
+            />
+        <item android:title="Capitulo300_3"
+            android:id="@+id/opcion_cap300_3"
+            android:checked="false"
+            />
+        <item android:title="Capitulo300_4"
+            android:id="@+id/opcion_cap300_4"
+            android:checked="false"
+            />
+        <item android:title="Capitulo300_5"
+            android:id="@+id/opcion_cap300_5"
+            android:checked="false"
+            />
+        <item android:title="Capitulo300_6"
+            android:id="@+id/opcion_cap300_6"
+            android:checked="false"
+            />
+        <item android:title="Capitulo300_7"
+            android:id="@+id/opcion_cap300_7"
+            android:checked="false"
+            />
+        <item android:title="Capitulo401"
+            android:id="@+id/opcion_cap401"
+            android:checked="false"
+            />
+        <item android:title="Capitulo402"
+            android:id="@+id/opcion_cap402"
+            android:checked="false"
+            />
+        <item android:title="Capitulo500"
+            android:id="@+id/opcion_cap500"
+            android:checked="false"
+            />
+        <item android:title="Capitulo600"
+            android:id="@+id/opcion_cap600"
+            android:checked="false"
+            />
+        <item android:title="Capitulo700"
+            android:id="@+id/opcion_cap700"
+            android:checked="false"
+            />
+    </group>
+</menu>
