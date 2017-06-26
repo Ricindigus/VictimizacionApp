@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/cap100_pregunta5_layout"
+    android:id="@+id/capitulo100_pregunta5_layout"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -8,7 +8,7 @@
     android:padding="@dimen/layout_margin"
     android:background="@drawable/borde_layout_preguntas">
     <TextView
-        android:id="@+id/c100_pregunta5_textview"
+        android:id="@+id/capitulo100_pregunta5_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
@@ -16,13 +16,13 @@
         android:layout_marginBottom="@dimen/pregunta_margin"
         android:text="@string/capitulo100_pregunta5"/>
     <LinearLayout
-        android:id="@+id/c100_pregunta5_layout_subpregunta"
+        android:id="@+id/capitulo100_pregunta5_layout_subpregunta"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:gravity="center_vertical">
         <TextView
-            android:id="@+id/c100_pregunta5_textview_soles"
+            android:id="@+id/capitulo100_pregunta5_textview_soles"
             android:gravity="center"
             android:textStyle="bold"
             android:text="@string/texto_soles"
@@ -32,13 +32,13 @@
             android:layout_margin="@dimen/pregunta_margin" />
         <EditText
             android:inputType="numberDecimal"
-            android:id="@+id/c100_pregunta5_edittext"
+            android:id="@+id/capitulo100_pregunta5_edittext"
             android:layout_margin="@dimen/pregunta_margin"
             android:layout_width="150dp"
             android:layout_height="30dp"
             android:background="@drawable/cajas_de_texto"/>
         <CheckBox
-            android:id="@+id/cap100_pregunta5_checkbox"
+            android:id="@+id/capitulo100_pregunta5_checkbox"
             android:layout_margin="@dimen/pregunta_margin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

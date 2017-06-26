@@ -57,8 +57,28 @@
             android:id="@+id/opcion_cap600"
             android:checked="false"
             />
-        <item android:title="Capitulo700"
-            android:id="@+id/opcion_cap700"
+        <item android:title="Capitulo700_1"
+            android:id="@+id/opcion_cap700_1"
+            android:checked="false"
+            />
+        <item android:title="Capitulo700_2"
+            android:id="@+id/opcion_cap700_2"
+            android:checked="false"
+            />
+        <item android:title="Capitulo700_3"
+            android:id="@+id/opcion_cap700_3"
+            android:checked="false"
+            />
+        <item android:title="Capitulo700_4"
+            android:id="@+id/opcion_cap700_4"
+            android:checked="false"
+            />
+        <item android:title="Capitulo700_5"
+            android:id="@+id/opcion_cap700_5"
+            android:checked="false"
+            />
+        <item android:title="Capitulo700_6"
+            android:id="@+id/opcion_cap700_6"
             android:checked="false"
             />
     </group>

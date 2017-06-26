@@ -36,17 +36,20 @@ public class LoginActivity extends AppCompatActivity {
         btnIngresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SharedPreferences preferencias = getSharedPreferences("Usuarios", MODE_PRIVATE);
-
-                String usuario = txtUsuario.getText().toString();
-                String password = txtPassword.getText().toString();
-                if(usuario.equals(preferencias.getString("usuario","")) && password.equals(preferencias.getString("password",""))){
-                    Intent intent = new Intent(getApplicationContext(),MarcoActivity.class);
-                    startActivity(intent);
-                    finish();
-                }else{
-                    Toast.makeText(LoginActivity.this, "Usuario o Password Incorrecto", Toast.LENGTH_SHORT).show();
-                }
+                Intent intent = new Intent(getApplicationContext(),MarcoActivity.class);
+                startActivity(intent);
+                finish();
+//                SharedPreferences preferencias = getSharedPreferences("Usuarios", MODE_PRIVATE);
+//
+//                String usuario = txtUsuario.getText().toString();
+//                String password = txtPassword.getText().toString();
+//                if(usuario.equals(preferencias.getString("usuario","")) && password.equals(preferencias.getString("password",""))){
+//                    Intent intent = new Intent(getApplicationContext(),MarcoActivity.class);
+//                    startActivity(intent);
+//                    finish();
+//                }else{
+//                    Toast.makeText(LoginActivity.this, "Usuario o Password Incorrecto", Toast.LENGTH_SHORT).show();
+//                }
             }
         });
     }

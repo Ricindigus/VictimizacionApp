@@ -42,6 +42,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/layout_margin"
             android:layout_margin="@dimen/layout_margin"
+            android:visibility="gone"
             android:background="@drawable/borde_pregunta8a">
             <LinearLayout
                 android:id="@+id/cap700_pregunta2_radiobutton2_sp1_layout"
@@ -108,6 +109,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/layout_margin"
             android:layout_margin="@dimen/layout_margin"
+            android:visibility="gone"
             android:background="@drawable/borde_pregunta8a">
             <LinearLayout
                 android:id="@+id/cap700_pregunta2_radiobutton3_sp1_layout"
@@ -174,6 +176,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/layout_margin"
             android:layout_margin="@dimen/layout_margin"
+            android:visibility="gone"
             android:background="@drawable/borde_pregunta8a">
             <LinearLayout
                 android:id="@+id/cap700_pregunta2_radiobutton4_sp1_layout"
@@ -240,6 +243,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/layout_margin"
             android:layout_margin="@dimen/layout_margin"
+            android:visibility="gone"
             android:background="@drawable/borde_pregunta8a">
             <LinearLayout
                 android:id="@+id/cap700_pregunta2_radiobutton5_sp1_layout"
@@ -306,6 +310,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/layout_margin"
             android:layout_margin="@dimen/layout_margin"
+            android:visibility="gone"
             android:background="@drawable/borde_pregunta8a">
             <LinearLayout
                 android:id="@+id/cap700_pregunta2_radiobutton6_sp1_layout"
@@ -372,6 +377,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/layout_margin"
             android:layout_margin="@dimen/layout_margin"
+            android:visibility="gone"
             android:background="@drawable/borde_pregunta8a">
             <LinearLayout
                 android:id="@+id/cap700_pregunta2_radiobutton7_sp1_layout"
@@ -438,6 +444,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/layout_margin"
             android:layout_margin="@dimen/layout_margin"
+            android:visibility="gone"
             android:background="@drawable/borde_pregunta8a">
             <LinearLayout
                 android:id="@+id/cap700_pregunta2_radiobutton8_sp1_layout"
@@ -504,6 +511,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/layout_margin"
             android:layout_margin="@dimen/layout_margin"
+            android:visibility="gone"
             android:background="@drawable/borde_pregunta8a">
             <LinearLayout
                 android:id="@+id/cap700_pregunta2_radiobutton9_sp1_layout"
@@ -570,6 +578,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/layout_margin"
             android:layout_margin="@dimen/layout_margin"
+            android:visibility="gone"
             android:background="@drawable/borde_pregunta8a">
             <LinearLayout
                 android:id="@+id/cap700_pregunta2_radiobutton10_sp1_layout"
@@ -636,6 +645,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/layout_margin"
             android:layout_margin="@dimen/layout_margin"
+            android:visibility="gone"
             android:background="@drawable/borde_pregunta8a">
             <LinearLayout
                 android:id="@+id/cap700_pregunta2_radiobutton11_sp1_layout"

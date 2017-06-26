@@ -76,8 +76,23 @@ public class EncuestaActivity extends AppCompatActivity {
                     case R.id.opcion_cap600:
                         setFragment(13);
                         break;
-                    case R.id.opcion_cap700:
+                    case R.id.opcion_cap700_1:
                         setFragment(14);
+                        break;
+                    case R.id.opcion_cap700_2:
+                        setFragment(15);
+                        break;
+                    case R.id.opcion_cap700_3:
+                        setFragment(16);
+                        break;
+                    case R.id.opcion_cap700_4:
+                        setFragment(17);
+                        break;
+                    case R.id.opcion_cap700_5:
+                        setFragment(18);
+                        break;
+                    case R.id.opcion_cap700_6:
+                        setFragment(19);
                         break;
                 }
                 return false;
@@ -160,8 +175,28 @@ public class EncuestaActivity extends AppCompatActivity {
                 fragmentTransaction.replace(R.id.container, capitulo600Fragment);
                 break;
             case 14:
-                Capitulo700Fragment capitulo700Fragment = new Capitulo700Fragment();
-                fragmentTransaction.replace(R.id.container, capitulo700Fragment);
+                Capitulo700UnoFragment capitulo700UnoFragment = new Capitulo700UnoFragment();
+                fragmentTransaction.replace(R.id.container, capitulo700UnoFragment);
+                break;
+            case 15:
+                Capitulo700DosFragment capitulo700DosFragment = new Capitulo700DosFragment();
+                fragmentTransaction.replace(R.id.container, capitulo700DosFragment);
+                break;
+            case 16:
+                Capitulo700TresFragment capitulo700TresFragment = new Capitulo700TresFragment();
+                fragmentTransaction.replace(R.id.container, capitulo700TresFragment);
+                break;
+            case 17:
+                Capitulo700CuatroFragment capitulo700CuatroFragment = new Capitulo700CuatroFragment();
+                fragmentTransaction.replace(R.id.container, capitulo700CuatroFragment);
+                break;
+            case 18:
+                Capitulo700CincoFragment capitulo700CincoFragment = new Capitulo700CincoFragment();
+                fragmentTransaction.replace(R.id.container, capitulo700CincoFragment);
+                break;
+            case 19:
+                Capitulo700SeisFragment capitulo700SeisFragment = new Capitulo700SeisFragment();
+                fragmentTransaction.replace(R.id.container, capitulo700SeisFragment);
                 break;
         }
         fragmentTransaction.commit();

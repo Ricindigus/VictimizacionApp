@@ -106,6 +106,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/layout_margin"
             android:layout_margin="@dimen/layout_margin"
+            android:visibility="gone"
             android:background="@drawable/borde_pregunta8a">
             <TextView
                 android:id="@+id/cap700_pregunta12_radiobutton6_textview"

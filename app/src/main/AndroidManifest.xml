@@ -19,10 +19,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MarcoActivity" />
-        <activity android:name=".CaratulaActivity" />
-        <activity android:name=".AgregarResidenteActivity"></activity>
+        <activity android:name=".LoginActivity"
+            android:configChanges="screenSize|orientation"/>
+        <activity android:name=".MarcoActivity"
+            android:configChanges="screenSize|orientation"/>
+        <activity android:name=".CaratulaActivity"
+            android:configChanges="screenSize|orientation"/>
+        <activity android:name=".AgregarResidenteActivity"
+            android:configChanges="screenSize|orientation"></activity>
     </application>
 
 </manifest>
