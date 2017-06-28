@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.LinearLayout;
 
 public class EncuestaActivity extends AppCompatActivity {
     private Toolbar toolbar;
@@ -21,7 +22,6 @@ public class EncuestaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_encuesta);
-
         toolbar = (Toolbar)findViewById(R.id.toolbar);
         toolbar.setTitle("ENCUESTA NACIONAL ESPECIALIZADA DE VICTIMIZACION 2017");
         setSupportActionBar(toolbar);
@@ -113,7 +113,9 @@ public class EncuestaActivity extends AppCompatActivity {
         drawerLayout.setDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
         setFragment(0);
+
     }
+
     public void setFragment(int pos){
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();

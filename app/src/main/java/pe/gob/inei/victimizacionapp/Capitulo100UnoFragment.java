@@ -20,6 +20,7 @@ import android.widget.Toast;
  */
 public class Capitulo100UnoFragment extends Fragment {
 
+    private LinearLayout layoutPrincipal;
     private RadioGroup rgTipoVivienda;
     private RadioGroup rgAccesoVivienda;
     private RadioGroup rgMaterialPredominante;
@@ -145,5 +146,20 @@ public class Capitulo100UnoFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        view.clearFocus();
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        layoutPrincipal = (LinearLayout) getView().findViewById(R.id.layout_principal_capitulo100_1);
+        layoutPrincipal.requestFocus();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        layoutPrincipal = (LinearLayout) getView().findViewById(R.id.layout_principal_capitulo100_1);
+        layoutPrincipal.requestFocus();
     }
 }

@@ -11,18 +11,19 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
     private TextInputEditText txtUsuario;
     private TextInputEditText txtPassword;
     private Button btnIngresar;
+    private LinearLayout layoutPrincipal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
         txtUsuario = (TextInputEditText) findViewById(R.id.txtUsuario);
         txtPassword = (TextInputEditText) findViewById(R.id.txtPassword);
         btnIngresar = (Button) findViewById(R.id.btnIngresar);
@@ -54,4 +55,17 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        layoutPrincipal = (LinearLayout) findViewById(R.id.layout_principal_login);
+        layoutPrincipal.requestFocus();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        layoutPrincipal = (LinearLayout) findViewById(R.id.layout_principal_login);
+        layoutPrincipal.requestFocus();
+    }
 }

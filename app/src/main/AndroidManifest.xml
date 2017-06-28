@@ -23,8 +23,6 @@
             android:configChanges="screenSize|orientation"/>
         <activity android:name=".MarcoActivity"
             android:configChanges="screenSize|orientation"/>
-        <activity android:name=".CaratulaActivity"
-            android:configChanges="screenSize|orientation"/>
         <activity android:name=".AgregarResidenteActivity"
             android:configChanges="screenSize|orientation"></activity>
     </application>

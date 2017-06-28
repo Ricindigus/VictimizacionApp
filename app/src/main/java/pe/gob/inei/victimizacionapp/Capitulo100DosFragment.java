@@ -22,6 +22,7 @@ import android.widget.Toast;
  */
 public class Capitulo100DosFragment extends Fragment {
 
+    private LinearLayout layoutPrincipal;
     private RadioGroup rgViviendaOcupa;
     private LinearLayout layoutOtroViviendaOcupa;
     private EditText edtOtroViviendaOcupa;
@@ -112,5 +113,19 @@ public class Capitulo100DosFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        layoutPrincipal = (LinearLayout) getView().findViewById(R.id.layout_principal_capitulo100_2);
+        layoutPrincipal.requestFocus();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        layoutPrincipal = (LinearLayout) getView().findViewById(R.id.layout_principal_capitulo100_2);
+        layoutPrincipal.requestFocus();
     }
 }

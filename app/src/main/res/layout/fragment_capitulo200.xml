@@ -5,8 +5,6 @@
     android:orientation="vertical"
     tools:context="pe.gob.inei.victimizacionapp.Capitulo200Fragment">
 
-
-
     <LinearLayout
         android:id="@+id/cap200_residentes_layout"
         android:orientation="vertical"

@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">VictimizacionApp</string>
 
+    <string name="titulo_encuesta">ENCUESTA NACIONAL ESPECIALIZADA SOBRE VICTIMIZACIÓN 2017</string>
+    <string name="marco_encuesta">MARCO GENERAL DE LA ENCUESTA</string>
+
     <!--Titulos Capitulos-->
     <string name="capitulo100_titulo">CAPÍTULO 100: DATOS DE LA VIVIENDA (Jefe/a del hogar o persona de 18 y más años de edad)</string>
     <string name="capitulo200_titulo">CAPÍTULO 200: CARACTERÍSTICAS DE LOS RESIDENTES HABITUALES DEL HOGAR (Jefe/a del hogar o persona de 18 y más años de edad)</string>
